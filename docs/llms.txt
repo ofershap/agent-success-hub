@@ -1,6 +1,6 @@
 # Agent Success Hub
 
-> Community-contributed reusable AI-agent workflows. Contributor reports, not independent guarantees. Hebrew content with labelled English excerpts.
+> Community-contributed reusable personal AI assistant workflows. Contributor reports with stated verification limits. Hebrew content with labelled English excerpts.
 
 ## Read
 - [Library](https://ofershap.github.io/agent-success-hub/)
