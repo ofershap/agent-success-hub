@@ -42,5 +42,16 @@
     "tools": "סוכן עם יכולת לקרוא קוד ולהריץ בדיקות. שיתוף פומבי דורש אישור נפרד.",
     "en_tools": "An agent that can read code and run tests. Public outreach needs separate approval.",
     "topic": "קוד פתוח"
+  },
+  "issue-25": {
+    "title": "להשוות רכב מול הקריטריונים שלכם עם סוכן AI",
+    "description": "בודקים דגם מדויק מול הדרישות שלכם, משווים מקורות ומפרידים בין מה שהוכח למה שעדיין צריך לבדוק.",
+    "prepare": "דגם, רמת גימור, הנעה, שנת ייצור, שוק ורשימת קריטריונים עם תנאי סף ורצוי.",
+    "tools": "חיפוש באינטרנט וקריאת דפים בלבד; ללא גישה לחשבונות וללא יצירת קשר עם סוכנויות.",
+    "en_title": "Compare a car against your criteria with an AI agent",
+    "en_description": "Check an exact model against your requirements, compare sources and separate proven facts from items that still need checking.",
+    "en_prepare": "Exact model, trim, powertrain, model year, market and a list of must-have and preferred criteria.",
+    "en_tools": "Web search and page reading only. No account access or contact with dealers.",
+    "topic": "רכב"
   }
 }
