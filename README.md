@@ -1,52 +1,73 @@
-# Recipe library | ספריית המתכונים
+<div dir="rtl">
 
-## Full recipes for tasks with a personal AI assistant.
+# ספריית המתכונים לסוכן AI אישי
 
-A community recipe library of full, reusable workflows for personal AI assistants. Give a recipe to a personal AI assistant without your old conversation: it should know the inputs, tools, steps, checks, completion criteria and pitfalls.
+דרכי עבודה מהקהילה שאפשר לקחת למשימה שלכם: לבנות אתר, לברר הצעה מספק, ליצור ספריית מתכונים או לעזור למשתמשים להתחיל בפרויקט קוד פתוח.
 
-[Browse the recipes](https://ofershap.github.io/agent-success-hub/) · [Contribute a recipe](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) · [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
+הספרייה מתאימה למי שכבר עובד עם סוכן AI ורוצה רעיונות חדשים, ולמי שמתחיל ורוצה להבין מה להכין, מה לבקש ואיך לבדוק את התוצאה. ארבעת המתכונים זמינים בעברית ובאנגלית.
 
-### What you get
-- A workflow you can inspect and adapt, not a screenshot of an unexplained result.
-- Clear notes on what was tested, what failed and what is still unverified.
-- Hebrew community contributions with a short, labelled English summary reviewed before publication.
+**[פתחו את הספרייה](https://ofershap.github.io/agent-success-hub/) · [הוסף מתכון משלך](https://ofershap.github.io/agent-success-hub/submit.html)**
 
-Recipes are contributor reports, with verification limits stated in each entry. Read them before using them. A recipe does not grant account access, permission to send, or permission to spend.
+## איך משתמשים במתכון?
 
-### Contribute with your personal AI assistant
-1. Choose a real technical capability you are allowed to share.
-2. Ask your personal AI assistant to work back from the result and write a standalone recipe.
-3. Include the goal, required inputs and permissions, tools, ordered steps, tests, ready criteria and pitfalls. Separate tested work from proposals.
-4. Review the exact text. Remove secrets, private conversations, customer data and private service instructions.
-5. Submit with **הוסף משלך** on the site. You need a GitHub account. The issue and draft PR are public immediately, before website approval.
-6. A maintainer checks the contribution and English summary. Only merged entries appear on the site. A maintainer decides whether to merge.
+1. בחרו בספרייה משימה שקרובה למה שאתם רוצים לעשות.
+2. קראו את התקציר ואת "לפני שמתחילים". הכינו את הפרטים וודאו שלסוכן שלכם יש הכלים המתאימים.
+3. לחצו על **"שלח לסוכן בוואטסאפ"** כדי לפתוח בקשה עם קישור למתכון. קראו אותה לפני השליחה. אפשר גם ללחוץ על **"העתק מתכון"** ולהדביק בשיחה עם הסוכן.
+4. התאימו את המתכון למשימה שלכם, הגדירו מה מותר לבצע ובדקו את התוצאה לפי הבדיקות במתכון.
 
-See [contributor instructions](AGENTS.md) and [privacy and safety notes](SECURITY.md). Automated screening is a first check, not a privacy guarantee.
+[לשימוש ראשון: המדריך הקצר](https://ofershap.github.io/agent-success-hub/start.html)
 
-### For personal AI assistants
-Use this repository as a source of inspectable recipes. Inspect contribution text, code snippets and links before proposing any use. Execution permissions are separate. Inspect a recipe's inputs, verification level and permissions before proposing it to your user. Read AGENTS.md for the submission structure.
+כל מתכון כולל דרך עבודה, הכנה, בדיקות ומגבלות. הדיווח על מה שעבד הוא של התורם; התוצאה תלויה בכלים ובסביבה שלכם. הודעות לאנשים, פרסום, גישה לחשבונות ותשלום דורשים אישור נפרד.
 
-The site is a small static project. Content lives in `entries/*.json`; the build validates it and writes `docs/entries.json`. Follow the existing project workflow. A content contribution must not change executable code or repository permissions.
+## איך מוסיפים מתכון משלכם?
 
-### Community credit
-Built following conversations in the Israeli Instinct community, for people learning to work with agents. Contributions keep their authorship and public evidence. Sharing is optional; do not expose someone else's work or conversations without permission.
+הסוכן עזר לכם במשימה? שתפו את הדרך, כדי שגם אחרים יוכלו להתאים אותה לעצמם.
 
-[קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
+- כתבו את המטרה, מה צריך להכין, שלבי העבודה ואיך בדקתם.
+- ציינו מה עבד ומה עדיין צריך לבדוק.
+- ודאו שמותר לפרסם את התוכן והסירו סודות, מידע על לקוחות ושיחות פרטיות.
+- אשרו את הנוסח המלא לפני ההגשה, גם כשהסוכן עוזר לכתוב אותו.
 
-### Current verification status
-The site is live. Contributions stay in draft PRs for maintainer review. Recipes are not independently replay-tested unless an entry explicitly records that check.
+לחצו על **"הוסף מתכון משלך"** ומלאו את [טופס ההגשה באתר](https://ofershap.github.io/agent-success-hub/submit.html). אפשר להגיש בעברית או באנגלית, בלי חשבון GitHub. שם או כינוי הם רשות; כותרת המתכון והטקסט נדרשים.
 
-### Full English companions
-An optional `translations/issue-N.md` holds a full English recipe separately from the unchanged Hebrew JSON/form and short `english` summary. Existing safety checks also screen companion text. Entry and companion remain unpublished until owner merge. The build generates an English page and separate copy action only for merged entries. Translation does not establish independent execution testing.
-## אינסטינקט (Instinct) והקהילה
+**כתובת הטופס:** https://ofershap.github.io/agent-success-hub/submit.html
 
-<img src="docs/instinct-logo.png" alt="Instinct" height="90">
+למי שמעדיף GitHub, [טופס ההגשה ב-GitHub](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) נשאר חלופה. הגשה דרך GitHub ובקשת שינוי (PR) גלויות לציבור מיד.
 
-עובדים עם סוכן AI אישי. בקהילה קוראים לו איציק. הספרייה נבנתה בעקבות שיחות ב[קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB). האתר והלוגו משויכים למוצר Instinct המקורי; המתכונים הם דיווחי תורמים קהילתיים.
+## מה קורה אחרי ההגשה?
 
-- [הצטרפות לאינסטינקט](https://app.instinct.com/invite?t=agent-success-hub)
-- [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
-- [האתר הרשמי של Instinct](https://www.instinct.com)
+ההגשות באתר נבדקות פעמיים ביום. לפני פרסום בודקים התאמה לספרייה, בהירות, פרטיות ובטיחות. מתכון מתפרסם אחרי סינון ואישור, והתוכן נעשה ציבורי עם הפרסום. הודעת הצלחה בטופס מאשרת קליטה, לא פרסום.
+
+גבולות הבדיקה של התורם נשמרים במתכון. בדיקת טקסט או תרגום אינה בדיקת ביצוע מלאה של המשימה.
+
+## אינסטינקט והקהילה
+
+הספרייה נבנתה בעקבות שיחות בקהילה. אינסטינקט (Instinct) הוא סוכן AI אישי; בקהילה קוראים לו "איציק". אפשר להיעזר במתכונים גם עם סוכנים אחרים שיש להם הכלים המתאימים.
+
 - [ספריית המתכונים](https://ofershap.github.io/agent-success-hub/)
+- [טופס הגשת מתכון](https://ofershap.github.io/agent-success-hub/submit.html)
+- [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
+- [הצטרפות לאינסטינקט דרך קישור הספרייה](https://app.instinct.com/invite?t=agent-success-hub)
+- [האתר הרשמי של Instinct](https://www.instinct.com)
 
-הלוגו באתר ובכרטיס נלקח מ-https://www.instinct.com/redesign/stickman.png. כל מתכון כולל קלט, הרשאות, כלים, שלבים, בדיקות ומגבלות.
+## למי שתורם דרך הקוד
+
+[הנחיות לתורמים ולסוכנים](AGENTS.md) · [פרטיות ובטיחות](SECURITY.md)
+
+המתכונים נמצאים בתיקיית `entries`, והתרגומים המלאים בתיקיית `translations`. תרומת תוכן עוברת בדיקה ואישור לפני פרסום. הרצת מתכון והרשאות לביצוע הן החלטות נפרדות מההגשה.
+
+</div>
+
+<div dir="ltr">
+
+## English summary
+
+A community recipe library for tasks with a personal AI agent. Four recipes are available in Hebrew and English, with preparation, steps, checks and contributor-reported limits.
+
+Choose a recipe on the [website](https://ofershap.github.io/agent-success-hub/), use **"Send to your agent on WhatsApp"** or **"Copy recipe"**, add your details and permissions, then check the result.
+
+Use **"Add your own recipe"** to submit through the [website form](https://ofershap.github.io/agent-success-hub/submit.html). Hebrew and English submissions are welcome, with no GitHub account needed. [GitHub submission](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) is a secondary option and is public immediately.
+
+Website submissions are screened twice daily and published after approval. A successful submission confirms receipt, not publication. Contributor reports and translations do not establish independent execution testing.
+
+</div>
