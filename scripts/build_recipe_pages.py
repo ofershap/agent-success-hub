@@ -47,9 +47,9 @@ def orientation(key,english):
  return '<section id="before-start" class="recipe-quick"><h2>'+label+'</h2><dl><dt>'+prepare+'</dt><dd>'+esc(d[prefix+'prepare'])+'</dd><dt>'+tools+'</dt><dd>'+esc(d[prefix+'tools'])+'</dd></dl><ol>'+''.join('<li>'+x+'</li>' for x in steps)+'</ol><a href="../start.html">'+guide+' ←</a></section>'
 def shell(title,desc,url,english,body,schema):
  lang='en' if english else 'he';direction='ltr' if english else 'rtl'
- home='Recipe library' if english else 'מאגר המתכונים'
+ home='Recipe library' if english else 'ספריית המתכונים'
  brand='Instinct Israel' if english else 'אינסטינקט ישראל'
- about='About the library' if english else 'על המאגר'
+ about='About the library' if english else 'על הספרייה'
  disclaimer='Execution, account access, messages and spending need separate permission. Testing status is the contributor\'s report.' if english else 'הרשאות להרצה, חשבונות, שליחה ותשלום ניתנות בנפרד. רמת הבדיקה היא דיווח של התורם.'
  return '<!doctype html><html lang="'+lang+'" dir="'+direction+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' | Personal AI agent recipes</title><meta name="description" content="'+esc(desc[:150])+'"><link rel="canonical" href="'+url+'"><link rel="stylesheet" href="../style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head><body><a class="skip-link" href="#recipe-content">'+('Skip to recipe' if english else 'למתכון')+'</a><header><a class="brand" href="../"><img src="../instinct-logo.png" alt="" class="brand-logo">'+brand+'</a><nav><a href="../start.html">'+('Getting started (Hebrew)' if english else 'מתחילים כאן')+'</a><a href="../about.html">'+about+'</a><a href="https://github.com/ofershap/agent-success-hub">GitHub ↗</a></nav></header><main id="recipe-content" class="recipe-main">'+body+'</main><footer><p><img src="../instinct-logo.png" alt="Instinct" class="instinct-logo">Instinct · Personal AI agent recipes</p><p>'+disclaimer+'</p><a href="../">'+home+'</a></footer><script src="../recipe-copy.js"></script></body></html>'
 data=json.loads((r/'docs/entries.json').read_text());out=r/'docs/recipes';out.mkdir(exist_ok=True)

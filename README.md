@@ -1,8 +1,8 @@
-# Agent Success Hub
+# Recipe library | ספריית המתכונים
 
 ## Full recipes for tasks with a personal AI assistant.
 
-A community library of full, reusable workflows for personal AI assistants. Give a recipe to a personal AI assistant without your old conversation: it should know the inputs, tools, steps, checks, completion criteria and pitfalls.
+A community recipe library of full, reusable workflows for personal AI assistants. Give a recipe to a personal AI assistant without your old conversation: it should know the inputs, tools, steps, checks, completion criteria and pitfalls.
 
 [Browse the recipes](https://ofershap.github.io/agent-success-hub/) · [Contribute a recipe](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) · [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
 
@@ -42,11 +42,11 @@ An optional `translations/issue-N.md` holds a full English recipe separately fro
 
 <img src="docs/instinct-logo.png" alt="Instinct" height="90">
 
-עובדים עם סוכן AI אישי. בקהילה קוראים לו איציק. המאגר נבנה בעקבות שיחות ב[קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB). האתר והלוגו משויכים למוצר Instinct המקורי; המתכונים הם דיווחי תורמים קהילתיים.
+עובדים עם סוכן AI אישי. בקהילה קוראים לו איציק. הספרייה נבנתה בעקבות שיחות ב[קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB). האתר והלוגו משויכים למוצר Instinct המקורי; המתכונים הם דיווחי תורמים קהילתיים.
 
 - [הצטרפות לאינסטינקט](https://app.instinct.com/invite?t=agent-success-hub)
 - [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
 - [האתר הרשמי של Instinct](https://www.instinct.com)
-- [מאגר המתכונים](https://ofershap.github.io/agent-success-hub/)
+- [ספריית המתכונים](https://ofershap.github.io/agent-success-hub/)
 
 הלוגו באתר ובכרטיס נלקח מ-https://www.instinct.com/redesign/stickman.png. כל מתכון כולל קלט, הרשאות, כלים, שלבים, בדיקות ומגבלות.
