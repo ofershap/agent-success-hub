@@ -53,5 +53,16 @@
     "en_prepare": "Exact model, trim, powertrain, model year, market and a list of must-have and preferred criteria.",
     "en_tools": "Web search and page reading only. No account access or contact with dealers.",
     "topic": "רכב"
+  },
+  "issue-27": {
+    "title": "לחבר סוכן לוואטסאפ לקריאת שיחות מורשות",
+    "description": "בודקים שהסוכן יכול להפעיל את הדפדפן הנכון, מקשרים מכשיר ומאמתים קריאה בגבולות שבחרתם.",
+    "prepare": "טלפון עם WhatsApp, דפדפן שהסוכן יכול להפעיל ורשימת שיחות שמותר לקרוא.",
+    "tools": "גישה לדפדפן וחשבון WhatsApp שבבעלותכם. קישור מכשיר וקריאה בהסכמה; שליחה דורשת אישור נפרד.",
+    "en_title": "Connect an AI agent to WhatsApp for authorised reading",
+    "en_description": "Check that the agent can use the right browser, link a device and verify reading within your chosen limits.",
+    "en_prepare": "A phone with WhatsApp, a browser the agent can operate and a list of conversations it may read.",
+    "en_tools": "Browser access and your own WhatsApp account. Linking and reading require consent; sending needs separate approval.",
+    "topic": "וואטסאפ"
   }
 }
