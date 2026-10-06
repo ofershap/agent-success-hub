@@ -25,8 +25,10 @@ def summary(d):
     return ('A community report documents an agent-assisted task, the steps taken, what worked, what failed, and a reusable prompt.'+(' Tools: '+tools+'.' if tools else '')), 'automatic-metadata'
 
 def parse_issue(body):
-    sections={m.group(1).strip():m.group(2).strip() for m in re.finditer(r'^### ([^\n]+)\n\n(.*?)(?=\n### |\Z)',body,re.M|re.S)}
     mapping={'title':'כותרת','request':'מה ביקשתי','actions':'מה הסוכן עשה','worked':'מה עבד','failed':'מה לא עבד ומה עוד לא נבדק','prompt':'הסקיל או הפרומפט','tools':'כלים וסביבה','evidence':'קישור ציבורי להוכחה','english':'תקציר באנגלית (לא חובה)'}
+    labels=list(mapping.values())+['אישור פרסום']
+    delimiters='|'.join(re.escape(label) for label in labels)
+    sections={m.group(1).strip():m.group(2).strip() for m in re.finditer(r'^### ('+delimiters+r')\n\n(.*?)(?=\n### (?:'+delimiters+r')\n|\Z)',body,re.M|re.S)}
     d={k:sections.get(v,'').replace('_No response_','').strip() for k,v in mapping.items()}
     d['consent']='[X]' in sections.get('אישור פרסום','') or '[x]' in sections.get('אישור פרסום','')
     return validate(d)
