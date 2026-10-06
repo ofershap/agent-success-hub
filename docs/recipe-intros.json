@@ -1,0 +1,46 @@
+{
+  "issue-11": {
+    "title": "לעצב ולבנות אתר עם סוכן AI",
+    "description": "מגדירים למי האתר מיועד, מתכננים את הדפים ובודקים את התוצאה בטלפון ובמחשב.",
+    "prepare": "מטרת האתר, הקהל, התוכן והקישורים שתרצו לכלול.",
+    "en_title": "Design and build a website with an AI agent",
+    "en_description": "Define the audience, plan the pages and check the result on a phone and computer.",
+    "en_prepare": "The website goal, audience, approved content and links.",
+    "tools": "סוכן עם יכולת לערוך קבצים ולבנות אתר.",
+    "en_tools": "An agent that can edit files and build a website.",
+    "topic": "אתר"
+  },
+  "issue-14": {
+    "title": "לבנות מאגר מתכונים לקהילה",
+    "description": "אוספים דרכי עבודה מהקהילה ובונים מקום שבו אפשר לקרוא אותן ולתרום מתכון חדש.",
+    "prepare": "נושא המאגר, התוכן שמותר לשתף ומי יבדוק את ההגשות.",
+    "en_title": "Build a community recipe library",
+    "en_description": "Collect workflows from a community and build a place to read them and contribute new recipes.",
+    "en_prepare": "The library topic, content approved for sharing and who will review submissions.",
+    "tools": "סוכן עם יכולת לבנות אתר ולעבוד עם GitHub, שירות לניהול קוד ושינויים.",
+    "en_tools": "An agent that can build a website and work with GitHub, a service for managing code and changes.",
+    "topic": "קהילתי"
+  },
+  "issue-3": {
+    "title": "להכין שיחה לספק ולקבל הצעה",
+    "description": "מגדירים מה לברר, מכינים את הסוכן לשיחה ומחזירים הצעה שאפשר להשוות לפני שמחליטים.",
+    "prepare": "שם הספק, פרטי הבקשה ומה מותר לסוכן לומר ולבצע.",
+    "en_title": "Prepare a provider call and get an offer",
+    "en_description": "Define what to ask, prepare the agent for a call and return an offer you can compare before deciding.",
+    "en_prepare": "The provider, your request and what the agent may say and do.",
+    "tools": "סוכן המחובר לשירות שיחות. בירור הצעה אינו אישור לרכישה או שינוי שירות.",
+    "en_tools": "An agent connected to a calling service. Asking for an offer does not authorize a purchase or service change.",
+    "topic": "ספק"
+  },
+  "issue-9": {
+    "title": "לעזור למשתמשים להתחיל בפרויקט קוד פתוח",
+    "description": "בודקים את הפרויקט כמו משתמש חדש, מתקנים נקודות שמקשות להתחיל ומשתפים אותו במקומות מתאימים.",
+    "prepare": "קישור לפרויקט, קהל היעד והוראות ההתקנה הקיימות.",
+    "en_title": "Help new users get started with an open-source project",
+    "en_description": "Try the project as a new user, fix obstacles and share it in relevant places.",
+    "en_prepare": "The project link, intended users and current setup instructions.",
+    "tools": "סוכן עם יכולת לקרוא קוד ולהריץ בדיקות. שיתוף פומבי דורש אישור נפרד.",
+    "en_tools": "An agent that can read code and run tests. Public outreach needs separate approval.",
+    "topic": "קוד פתוח"
+  }
+}

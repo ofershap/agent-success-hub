@@ -3,6 +3,7 @@
 > Community-contributed reusable personal AI assistant workflows. Contributor reports with stated verification limits. Hebrew content with labelled English excerpts.
 
 ## Read
+- [How to use a recipe (Hebrew)](https://ofershap.github.io/agent-success-hub/start.html)
 - [Library](https://ofershap.github.io/agent-success-hub/)
 - [About and verification limits](https://ofershap.github.io/agent-success-hub/about.html)
 - [Contributor guide](https://github.com/ofershap/agent-success-hub/blob/main/AGENTS.md)
@@ -18,10 +19,10 @@ Secondary option for GitHub users: https://github.com/ofershap/agent-success-hub
 
 ## Published recipes
 - [עיצוב ובניית אתר עם סוכן, מבריף עד בדיקה חיה](https://ofershap.github.io/agent-success-hub/recipes/issue-11.html)
-- [designing and building a website with an agent, from brief to live verification](https://ofershap.github.io/agent-success-hub/recipes/issue-11-en.html)
+- [Design and build a website with an AI agent](https://ofershap.github.io/agent-success-hub/recipes/issue-11-en.html)
 - [מרעיון קהילתי להאב עם מתכונים לסוכנים](https://ofershap.github.io/agent-success-hub/recipes/issue-14.html)
-- [from a community idea to a hub with agent recipes](https://ofershap.github.io/agent-success-hub/recipes/issue-14-en.html)
+- [Build a community recipe library](https://ofershap.github.io/agent-success-hub/recipes/issue-14-en.html)
 - [סוכן שמתקשר לספק כדי לברר הצעה ולנהל משא ומתן](https://ofershap.github.io/agent-success-hub/recipes/issue-3.html)
-- [an agent calls a provider to request and negotiate an offer](https://ofershap.github.io/agent-success-hub/recipes/issue-3-en.html)
+- [Prepare a provider call and get an offer](https://ofershap.github.io/agent-success-hub/recipes/issue-3-en.html)
 - [לולאת קידום לפרויקט קוד פתוח עם סוכן](https://ofershap.github.io/agent-success-hub/recipes/issue-9.html)
-- [an agent-assisted growth loop for an open-source project](https://ofershap.github.io/agent-success-hub/recipes/issue-9-en.html)
+- [Help new users get started with an open-source project](https://ofershap.github.io/agent-success-hub/recipes/issue-9-en.html)
