@@ -18,6 +18,9 @@ def translate_entry(d):
  d['english_source']='machine-local'
  return d
 if __name__=='__main__':
+ from diagnostics import safe_error
  for p in Path('entries').glob('*.json'):
-  d=translate_entry(json.loads(p.read_text()))
+  try:d=translate_entry(json.loads(p.read_text()))
+  except Exception as error:
+   print('Local summary failed: '+safe_error(error), flush=True);raise SystemExit(1)
   p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
