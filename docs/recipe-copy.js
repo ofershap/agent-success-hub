@@ -1,0 +1,1 @@
+document.getElementById('copy-recipe').addEventListener('click',async function(){try{await navigator.clipboard.writeText(document.getElementById('recipe-en').textContent);this.textContent='Copied'}catch{this.textContent='Select the recipe text to copy'}});

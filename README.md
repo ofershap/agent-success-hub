@@ -35,3 +35,6 @@ Built following conversations in the Israeli Instinct community, for people lear
 
 ### Current verification status
 The site is live. Contributions stay in draft PRs for maintainer review. Recipes are not independently replay-tested unless an entry explicitly records that check.
+
+### Full English companions
+An optional `translations/issue-N.md` holds a full English recipe separately from the unchanged Hebrew JSON/form and short `english` summary. Existing safety checks also screen companion text. Entry and companion remain unpublished until owner merge. The build generates an English page and separate copy action only for merged entries. Translation does not establish independent execution testing.
