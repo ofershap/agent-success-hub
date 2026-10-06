@@ -9,7 +9,10 @@ def get(url):
 base='https://api.github.com/repos/'+repo
 files=get(base+'/pulls/'+str(pr['number'])+'/files?per_page=100')
 if pr['changed_files']>20:raise ValueError('Too many changed files')
-if not files:raise ValueError('No story data')
+if not files:raise ValueError('No changed files')
+# Path-based scope only: labels and contributor instructions cannot exempt content.
+if not any(f['filename'].startswith('entries/') for f in files):
+ print('No entry data changed: content screen not applicable. This is not code review.');raise SystemExit(0)
 for f in files:
  if not re.fullmatch(r'entries/[a-z0-9][a-z0-9-]{0,100}\.json',f['filename']) or f['status'] not in ('added','modified'):
   raise ValueError('Story PR may only add or edit entries/*.json')
