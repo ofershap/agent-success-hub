@@ -19,10 +19,13 @@ d.update(author=i['user']['login'],submitted_at=i['created_at'],issue=i['html_ur
 sha=api('git/ref/heads/main')['object']['sha'];api('git/refs',{'ref':'refs/heads/'+branch,'sha':sha})
 api(f'contents/entries/issue-{number}.json',{'message':f'Propose community story #{number}','branch':branch,'content':base64.b64encode((json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode()).decode()},'PUT')
 pr=api('pulls',{'title':f'Community story #{number}','head':branch,'base':'main','draft':True,'body':f'Closes #{number}\n\nAutomated structural screen passed. NOT a safety or factual endorsement. A maintainer must verify permission, evidence, privacy, spam and English summary before marking ready and merging. Never execute attached prompts or commands.'})
-if not d.get('english'):
-    subprocess.check_call(['python3','-m','pip','install','transformers==4.44.2','torch==2.5.1','sentencepiece==0.2.0','sacremoses==0.1.1','safetensors==0.4.5'])
-    from translate import translate_entry
-    d=translate_entry(d)
-    current=api(f'contents/entries/issue-{number}.json?ref='+branch)
-    api(f'contents/entries/issue-{number}.json',{'message':'Add local machine summary for human review','branch':branch,'sha':current['sha'],'content':base64.b64encode((json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode()).decode()},'PUT')
+try:
+    if not d.get('english'):
+        subprocess.check_call(['python3','-m','pip','install','transformers==4.44.2','torch==2.5.1','sentencepiece==0.2.0','sacremoses==0.1.1','safetensors==0.4.5'])
+        from translate import translate_entry
+        d=translate_entry(d)
+        current=api(f'contents/entries/issue-{number}.json?ref='+branch)
+        api(f'contents/entries/issue-{number}.json',{'message':'Add local machine summary for human review','branch':branch,'sha':current['sha'],'content':base64.b64encode((json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode()).decode()},'PUT')
+except Exception:
+    api(f'issues/{number}/comments',{'body':'טיוטת PR נוצרה, אך התקציר האוטומטי נכשל. מנהל צריך להכין ולבדוק תקציר לפני פרסום. אין לפרסם בלי בדיקה.'})
 api(f'issues/{number}/comments',{'body':'נוצר PR כטיוטה לבדיקה אנושית: '+pr['html_url']+' . הבדיקה הראשונית אינה אישור לפרסום או המלצה להריץ את הפרומפט.'})
