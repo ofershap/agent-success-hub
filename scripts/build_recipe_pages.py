@@ -33,7 +33,7 @@ def markdown(text):
 def actions(page,english):
  if page not in links_manifest:raise ValueError('Generate WhatsApp action with canonical link tool before publication: '+page)
  send='Send to your agent on WhatsApp' if english else 'שלח לסוכן בוואטסאפ'
- add='Add your own recipe' if english else 'אוסף מתכון משלך'
+ add='Add your own recipe' if english else 'הוסף מתכון משלך'
  note='Opens a short request with this recipe link. Review and send it yourself.' if english else 'פותח בקשה קצרה עם קישור למתכון. אתם בודקים ושולחים.'
  return '<div class="recipe-actions"><a class="button" href="'+esc(links_manifest[page])+'" rel="noopener noreferrer">'+send+' ↗</a><a class="button secondary" href="'+esc(SUBMIT)+'">'+add+' ↗</a></div><p class="recipe-note">'+note+'</p>'
 def shell(title,desc,url,english,body,schema):
