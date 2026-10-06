@@ -16,7 +16,8 @@ for i,d in enumerate(data):
  schema={'@context':'https://schema.org','@type':'CreativeWork','name':d['title'],'inLanguage':'he','url':url}
  if d.get('author'):schema['author']={'@type':'Person','name':d['author']}
  enlink='<a lang="en" href="'+key+'-en.html">Full English recipe</a>' if d.get('recipe_en') else ''
- page='<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(d['title'])+'</title><link rel="canonical" href="'+url+'"><link rel="stylesheet" href="../style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head><body><header><a href="../">למאגר</a></header><main><h1>'+esc(d['title'])+'</h1>'+enlink+fields+'<section lang="en" dir="ltr"><h2>English summary</h2><p>'+esc(d['english'])+'</p></section><aside>דיווח תורם, לא אימות עצמאי. המתכון אינו הרשאה להריץ, לשלוח או לשלם.</aside></main></body></html>'
+ page='<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(d['title'])+' | מתכונים לסוכן AI אישי</title><meta name="description" content="'+esc(d['request'][:150])+'"><link rel="canonical" href="'+url+'"><link rel="stylesheet" href="../style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head><body><header><a href="../">למאגר</a></header><main><h1>'+esc(d['title'])+'</h1>'+enlink+fields+'<section lang="en" dir="ltr"><h2>English summary</h2><p>'+esc(d['english'])+'</p></section><aside>רמת הבדיקה מפורטת בדיווח התורם. הרשאות להרצה, שליחה ותשלום ניתנות בנפרד.</aside></main></body></html>'
+
  (out/(key+'.html')).write_text(page)
  if d.get('recipe_en'):
   title=d['recipe_en'].splitlines()[0].lstrip('# ').removeprefix('Draft: ').removeprefix('Review draft: ')
