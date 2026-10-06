@@ -18,6 +18,12 @@ class ContentTests(unittest.TestCase):
   labels={'title':'כותרת','request':'מה ביקשתי','actions':'מה הסוכן עשה','worked':'מה עבד','failed':'מה לא עבד ומה עוד לא נבדק','prompt':'הסקיל או הפרומפט'}
   d=self.entry();body='\n\n'.join('### '+label+'\n\n'+d[key] for key,label in labels.items())+'\n\n### אישור פרסום\n\n- [X] Confirmed public sharing'
   self.assertEqual(parse_issue(body)['request'],d['request'])
+ def test_nested_recipe_headings_preserved(self):
+  labels={'title':'כותרת','request':'מה ביקשתי','actions':'מה הסוכן עשה','worked':'מה עבד','failed':'מה לא עבד ומה עוד לא נבדק','prompt':'הסקיל או הפרומפט','tools':'כלים וסביבה'}
+  d=self.entry();d['prompt']='Standalone recipe intro.\n\n### מטרה\n\nBuild a tested result.\n\n### שלבים\n\n1. Gather approved inputs.\n2. Build and verify.\n\n### מוכן\n\nAll checks passed.';d['tools']='Python local fixtures'
+  body='\n\n'.join('### '+label+'\n\n'+d[key] for key,label in labels.items())+'\n\n### אישור פרסום\n\n- [X] Confirmed public sharing'
+  parsed=parse_issue(body)
+  self.assertEqual(parsed['prompt'],d['prompt']);self.assertEqual(parsed['tools'],d['tools'])
  def test_optional_type(self):
   d=self.entry();d['evidence']=['https://example.com']
   with self.assertRaises(ValueError):validate(d)
