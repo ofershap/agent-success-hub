@@ -22,6 +22,8 @@ Secondary option for GitHub users: https://github.com/ofershap/agent-success-hub
 - [Design and build a website with an AI agent](https://ofershap.github.io/agent-success-hub/recipes/issue-11-en.html)
 - [מרעיון קהילתי להאב עם מתכונים לסוכנים](https://ofershap.github.io/agent-success-hub/recipes/issue-14.html)
 - [Build a community recipe library](https://ofershap.github.io/agent-success-hub/recipes/issue-14-en.html)
+- [להשוות רכב מול הקריטריונים שלכם עם סוכן AI](https://ofershap.github.io/agent-success-hub/recipes/issue-25.html)
+- [Compare a car against your criteria with an AI agent](https://ofershap.github.io/agent-success-hub/recipes/issue-25-en.html)
 - [סוכן שמתקשר לספק כדי לברר הצעה ולנהל משא ומתן](https://ofershap.github.io/agent-success-hub/recipes/issue-3.html)
 - [Prepare a provider call and get an offer](https://ofershap.github.io/agent-success-hub/recipes/issue-3-en.html)
 - [לולאת קידום לפרויקט קוד פתוח עם סוכן](https://ofershap.github.io/agent-success-hub/recipes/issue-9.html)

@@ -69,17 +69,18 @@ for i,d in enumerate(data):
  enlink='<a class="recipe-lang" lang="en" dir="ltr" href="'+key+'-en.html">Read in English ↗</a>' if d.get('recipe_en') else ''
  intro='<section class="recipe-intro"><p class="eyebrow">מתכון מהקהילה / סוכן AI אישי</p><h1>'+esc(dmeta['title'])+'</h1><p class="recipe-deck">'+esc(dmeta['description'])+'</p>'+enlink+actions(page,False)+'</section>'
  summary='<section class="recipe-summary" lang="en" dir="ltr"><h2>English summary</h2><p>'+esc(d['english'])+'</p></section>'
- provenance='<p class="recipe-provenance">GitHub: '+esc(d.get('author',''))+'</p>'
+ provenance='<p class="recipe-provenance">מאת: '+esc(d.get('author',''))+'</p>'
  (out/page).write_text(shell(dmeta['title'],dmeta['description'],url,False,intro+'<div class="recipe-layout">'+nav+'<div>'+fields+summary+provenance+'<aside>ההגשות בטופס באתר נבדקות פעמיים ביום ומתפרסמות אחרי סינון ואישור. התוכן ציבורי עם הפרסום. מגישים תוכן מאושר לשיתוף, בלי סודות או מידע פרטי.</aside></div></div>',schema))
  if d.get('recipe_en'):
   title=dmeta['en_title']
   enpage=key+'-en.html';enurl=BASE+'recipes/'+enpage;urls.append(enurl);links.append((title,enurl))
   enschema={'@context':'https://schema.org','@type':'CreativeWork','name':title,'inLanguage':'en','url':enurl}
+  if d.get('author'):enschema['author']={'@type':'Person','name':d['author']}
   headings=[line.lstrip('# ') for line in d['recipe_en'].splitlines() if line.startswith('## ')]
   entoc='<nav class="recipe-nav" aria-label="Recipe contents"><p>Inside this recipe</p><a href="#before-start">Before you start</a><a href="#recipe-body">The full recipe</a><a href="#copy-recipe">Copy recipe</a></nav>'
   intro='<section class="recipe-intro"><p class="eyebrow">COMMUNITY RECIPE / PERSONAL AI AGENT</p><h1>'+esc(title)+'</h1><p class="recipe-deck">'+esc(dmeta['en_description'])+'</p><a class="recipe-lang" href="'+key+'.html">עברית ↗</a>'+actions(enpage,True)+'</section>'
   content='<div class="recipe-layout">'+entoc+'<div>'+orientation(key,True)+'<p class="recipe-summary">English translation of the contributor recipe. Check its testing status and limits before use.</p><button id="copy-recipe" class="copy-recipe-button" data-copy="recipe-en" type="button">Copy recipe</button><article id="recipe-body" class="recipe-text">'+markdown(d['recipe_en'])+'</article><pre id="recipe-en" hidden>'+esc(d['recipe_en'])+'</pre><aside>Website submissions are reviewed twice daily and published after screening and approval. Content is public when published. Share only approved content, without secrets or private information.</aside></div></div>'
-  (out/enpage).write_text(shell(title,d['english'],enurl,True,intro+content,enschema))
+  (out/enpage).write_text(shell(title,d['english'],enurl,True,intro+content+'<p class="recipe-provenance">By: '+esc(d.get('author',''))+'</p>',enschema))
 (r/'docs/sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>')
 (r/'docs/llms.txt').write_text((r/'docs/llms.txt').read_text().split('\n## Published recipes')[0]+'\n## Published recipes\n'+''.join('- ['+title.replace('\n',' ')+']('+u+')\n' for title,u in links))
 print('Built',len(data),'bilingual recipe pages')
