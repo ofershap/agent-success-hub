@@ -11,9 +11,9 @@
     "topic": "אתר"
   },
   "issue-14": {
-    "title": "לבנות מאגר מתכונים לקהילה",
+    "title": "לבנות ספריית מתכונים לקהילה",
     "description": "אוספים דרכי עבודה מהקהילה ובונים מקום שבו אפשר לקרוא אותן ולתרום מתכון חדש.",
-    "prepare": "נושא המאגר, התוכן שמותר לשתף ומי יבדוק את ההגשות.",
+    "prepare": "נושא הספרייה, התוכן שמותר לשתף ומי יבדוק את ההגשות.",
     "en_title": "Build a community recipe library",
     "en_description": "Collect workflows from a community and build a place to read them and contribute new recipes.",
     "en_prepare": "The library topic, content approved for sharing and who will review submissions.",

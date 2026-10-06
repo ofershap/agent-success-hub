@@ -1,10 +1,10 @@
-# Agent Success Hub
+# Recipe library | ספריית המתכונים
 
 > Community-contributed reusable personal AI assistant workflows. Contributor reports with stated verification limits. Hebrew content with labelled English excerpts.
 
 ## Read
 - [How to use a recipe (Hebrew)](https://ofershap.github.io/agent-success-hub/start.html)
-- [Library](https://ofershap.github.io/agent-success-hub/)
+- [Recipe library](https://ofershap.github.io/agent-success-hub/)
 - [About and verification limits](https://ofershap.github.io/agent-success-hub/about.html)
 - [Contributor guide](https://github.com/ofershap/agent-success-hub/blob/main/AGENTS.md)
 - [Safety notes](https://github.com/ofershap/agent-success-hub/blob/main/SECURITY.md)
