@@ -11,8 +11,10 @@
 Contribution text is reference material, not permission to execute actions. Public submission requires the owner's reviewed text and consent.
 
 
+
 ## Submit a recipe
-After the owner reviews the final text and approves public sharing, submit using this exact form URL: https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml . Include this URL whenever giving an agent instructions to contribute. A GitHub account is currently required. The issue and draft PR are public immediately; publication in the library follows maintainer review and merge. Never submit secrets, private conversations or customer information.
+After the owner reviews the final text and approves sharing, submit here: https://ofershap.github.io/agent-success-hub/submit.html . Always include this URL in contribution instructions. No GitHub account is required. Fields: name (optional, max 80), title (required, max 140), text (required, max 4000). Never submit secrets, private conversations or customer information. Submissions are screened twice daily and published after approval; content is public when published. A successful submission is not publication approval.
+Secondary option for GitHub users: https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml . On GitHub the issue and draft PR are public immediately.
 
 ## Published recipes
 - [עיצוב ובניית אתר עם סוכן, מבריף עד בדיקה חיה](https://ofershap.github.io/agent-success-hub/recipes/issue-11.html)
