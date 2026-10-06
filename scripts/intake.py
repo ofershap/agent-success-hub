@@ -26,6 +26,8 @@ try:
         d=translate_entry(d)
         current=api(f'contents/entries/issue-{number}.json?ref='+branch)
         api(f'contents/entries/issue-{number}.json',{'message':'Add local machine summary for human review','branch':branch,'sha':current['sha'],'content':base64.b64encode((json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode()).decode()},'PUT')
-except Exception:
+except Exception as error:
+    from diagnostics import safe_error
+    print('Local summary failed: '+safe_error(error), flush=True)
     api(f'issues/{number}/comments',{'body':'טיוטת PR נוצרה, אך התקציר האוטומטי נכשל. מנהל צריך להכין ולבדוק תקציר לפני פרסום. אין לפרסם בלי בדיקה.'})
 api(f'issues/{number}/comments',{'body':'נוצר PR כטיוטה לבדיקה אנושית: '+pr['html_url']+' . הבדיקה הראשונית אינה אישור לפרסום או המלצה להריץ את הפרומפט.'})
