@@ -26,6 +26,7 @@ jobs:
           NUMBER: ${{ inputs.submission }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          mkdir -p entries
           gh api "repos/$GITHUB_REPOSITORY/contents/entries/issue-$NUMBER.json?ref=submission/$NUMBER" --jq .content | base64 -d > "entries/issue-$NUMBER.json"
           python3 -c "import json; from scripts.content import validate; validate(json.load(open('entries/issue-'+__import__('os').environ['NUMBER']+'.json')))"
       - run: pip install 'transformers==4.44.2' 'torch==2.5.1' 'sentencepiece==0.2.0' 'sacremoses==0.1.1' 'safetensors==0.4.5'
