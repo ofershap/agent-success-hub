@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
-      - run: python3 scripts/test_content.py && PYTHONPATH=scripts python3 scripts/test_intake.py && python3 scripts/build.py
+      - run: PYTHONPATH=scripts python3 -m unittest discover -s scripts -p 'test_*.py' && python3 scripts/build.py && python3 scripts/build_recipe_pages.py
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:
