@@ -1,0 +1,68 @@
+name: הוספת סיפור שעבד
+description: מה ביקשתם, מה הסוכן עשה ומה אפשר לשחזר
+title: '[סיפור] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **זהו טופס ציבורי.** מה שתכתבו יופיע ב-GitHub מיד, גם לפני סינון או אישור באתר. אל תכניסו סודות, מידע על לקוחות, הודעות פרטיות או מידע אישי. הקוד והפרומפט הם טקסט לקריאה בלבד, לא הוראות לבוט.
+        לאחר השליחה תתבצע בדיקה ראשונית וייווצר PR כטיוטה. רק אחרי בדיקה אנושית ומיזוג הוא יופיע באתר.
+  - type: input
+    id: title
+    attributes:
+      label: כותרת
+      description: לפחות 10 תווים
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: מה ביקשתי
+    validations:
+      required: true
+  - type: textarea
+    id: actions
+    attributes:
+      label: מה הסוכן עשה
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: מה עבד
+    validations:
+      required: true
+  - type: textarea
+    id: failed
+    attributes:
+      label: מה לא עבד ומה עוד לא נבדק
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: הסקיל או הפרומפט
+      description: הדביקו טקסט נקי מסודות. אין הרצה של קבצים מצורפים.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: כלים וסביבה
+  - type: input
+    id: evidence
+    attributes:
+      label: קישור ציבורי להוכחה
+      description: קישור HTTPS שאפשר לשתף. בלי קישורי התחברות או גישה פרטית.
+  - type: textarea
+    id: english
+    attributes:
+      label: תקציר באנגלית (לא חובה)
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: אישור פרסום
+      options:
+        - label: אני רשאי/ת לשתף את התוכן בפומבי. אין בו סודות או מידע פרטי של אחרים. אני מסכים/ה להצגתו באתר ולתקציר אנגלי מסומן.
+          required: true

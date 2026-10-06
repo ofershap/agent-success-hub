@@ -1,0 +1,21 @@
+name: Form to draft PR
+on:
+  issues:
+    types: [opened]
+permissions: {}
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 scripts/intake.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,12 @@
+{
+  "title": "כותרת שמתארת את הניסוי",
+  "request": "הבקשה המקורית, בלי פרטים פרטיים",
+  "actions": "מה הסוכן עשה בפועל, לפי סדר",
+  "worked": "התוצאה שנצפתה וההוכחה שלה",
+  "failed": "מה לא עבד ומה עדיין לא נבדק",
+  "prompt": "הפרומפט או הסקיל, בלי סודות",
+  "tools": "הכלים והסביבה",
+  "evidence": "",
+  "english": "Short factual English summary for maintainer review.",
+  "consent": true
+}

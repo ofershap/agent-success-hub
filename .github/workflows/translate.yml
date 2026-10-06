@@ -1,0 +1,37 @@
+name: Prepare local English summary
+on:
+  workflow_dispatch:
+    inputs:
+      submission:
+        description: Numeric issue ID of draft story PR
+        required: true
+permissions: {}
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Validate branch selector
+        env:
+          NUMBER: ${{ inputs.submission }}
+        run: |
+          [[ "$NUMBER" =~ ^[0-9]+$ ]] || exit 1
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Fetch submission as data only
+        env:
+          NUMBER: ${{ inputs.submission }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/contents/entries/issue-$NUMBER.json?ref=submission/$NUMBER" --jq .content | base64 -d > "entries/issue-$NUMBER.json"
+          python3 -c "import json; from scripts.content import validate; validate(json.load(open('entries/issue-'+__import__('os').environ['NUMBER']+'.json')))"
+      - run: pip install 'transformers==4.44.2' 'torch==2.5.1' 'sentencepiece==0.2.0' 'sacremoses==0.1.1' 'safetensors==0.4.5'
+      - run: python3 scripts/translate.py
+      - name: Store machine summary for human QA
+        env:
+          NUMBER: ${{ inputs.submission }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/store_summary.py
