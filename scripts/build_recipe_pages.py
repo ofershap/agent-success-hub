@@ -84,3 +84,6 @@ for i,d in enumerate(data):
 (r/'docs/sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>')
 (r/'docs/llms.txt').write_text((r/'docs/llms.txt').read_text().split('\n## Published recipes')[0]+'\n## Published recipes\n'+''.join('- ['+title.replace('\n',' ')+']('+u+')\n' for title,u in links))
 print('Built',len(data),'bilingual recipe pages')
+# Keep all public discovery formats synchronized with the HTML deployment.
+from build_ai_access import build as build_ai_access
+build_ai_access(r)
