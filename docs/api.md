@@ -19,7 +19,7 @@ Base: https://ofershap.github.io/agent-success-hub/
 | `llms.txt` | Discovery index. |
 | `llms-full.txt` | Full public recipe corpus, including available English companions. |
 | `api-changelog.md` | Changes to this contract. |
-| `mcp-spec.md` | Proposed Workers MCP design. A specification, not a deployed service. |
+| `mcp-spec.md` | Proposed Workers and own-server MCP designs. A specification, not a deployed service. |
 
 JSON files are UTF-8. GitHub Pages controls response headers; clients should accept `application/json` for the feed as allowed by JSON Feed. HTML advertises the feed using an alternate link. Use HTTP cache validators when provided; the dataset hash also lets clients detect changes. There is no promise of realtime updates: recipes appear after review, merge and successful deployment.
 
