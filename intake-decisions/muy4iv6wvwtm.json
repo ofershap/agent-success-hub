@@ -1,0 +1,15 @@
+{
+  "id": "muy4iv6wvwtm",
+  "submitted_at": "2026-10-07T13:08:48.872Z",
+  "body_sha256": "57de31a614eb42e83421933e3b9dc61e0301fa8e873ec1b5e865d8e33d44c647",
+  "screening": "approved",
+  "reason": "Generic standalone workflow with inputs, steps, checks and limits; no private case, sales-agent IP, secrets or ungrounded execution claim.",
+  "state": "published",
+  "slug": "submission-muy4iv6wvwtm",
+  "source": "website form",
+  "author": "גל מוסקוביץ׳",
+  "content_pr": "https://github.com/ofershap/agent-success-hub/pull/33",
+  "published_url": "https://ofershap.github.io/agent-success-hub/recipes/submission-muy4iv6wvwtm.html",
+  "live_verified_at": "2026-10-08T15:55:34.722509+00:00",
+  "source_exact": true
+}
