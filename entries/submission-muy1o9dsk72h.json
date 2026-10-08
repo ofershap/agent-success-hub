@@ -1,0 +1,15 @@
+{
+  "title": "להכין מחלוקת עם ספק בכתב ותיק ראיות מסודר",
+  "request": "להכין מחלוקת עם ספק בכתב ותיק ראיות מסודר.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Preserve source documents, build a factual timeline, check jurisdiction-specific legal sources only when needed and prepare a message for review.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "זה תהליך תיעוד, לא ייעוץ משפטי. תיק ראיות וטיוטה אינם הוכחה להסדר, החזר או ניצחון.",
+  "prompt": "המטרה\nלהכין מחלוקת עם ספק בכתב ותיק ראיות מסודר.\n\nמה להכין\nהכינו הזמנה, הצעה, הודעות מקור, תאריכים, מה אושר ומה מבקשים כעת. ציינו [מדינה] ומי רשאי לאשר עבודה, תשלום ושליחה.\nPrivate archive\nTimeline\nOfficial legal sources\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. שמרו הודעות ומסמכים במקור. הכינו ציר זמן: עובדה, טענה, הבטחה, פעולה וראיה. היעדר מסמך אינו הוכחה שהפעולה לא בוצעה.\n2. העדיפו תקשורת כתובה. אחרי שיחה הכינו סיכום לאישור. שתיקה אינה הסכמה.\n3. בקשו פירוט אבחון, מחיר ועבודה נוספת. הפרידו ודאי מחשוד ומה שכבר אושר ממה שלא אושר.\n4. אם נדרשת טענה משפטית, בדקו מקור רשמי ועדכני במדינה המתאימה. צרפו סעיף ונוסח. הסכם ועובדות עשויים לשנות את היישום.\n5. כתבו טיוטה קצרה: עובדות, המסמך החסר, הבקשה, מה אינו מאושר ומועד תגובה. אל תוסיפו איום או זכות שלא נבדקה.\n6. הציגו נמען ונוסח יחד למאשר לפני שליחה. עמדו במועד שנקבע. סיכון לנכס או הליך משפטי דורש ייעוץ מקצועי.\n\nהבדיקות\nכל עובדה קשורה למקור. טענות מסומנות. ציטוט חוק נקרא במקור. השליחה מאושרת. ציר הזמן והפערים נמסרו בלי שיחות פרטיות בפומבי.\n\nהמגבלות\nזה תהליך תיעוד, לא ייעוץ משפטי. תיק ראיות וטיוטה אינם הוכחה להסדר, החזר או ניצחון.",
+  "tools": "Private archive, Timeline, Official legal sources",
+  "evidence": "",
+  "english": "Preserve source documents, build a factual timeline, check jurisdiction-specific legal sources only when needed and prepare a message for review. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T11:49:01.696Z",
+  "slug": "submission-muy1o9dsk72h"
+}
