@@ -1,0 +1,15 @@
+{
+  "title": "לסדר מיילים אוטומטיים בלי להסתיר הודעות חשובות",
+  "request": "לסדר מיילים אוטומטיים בלי להסתיר הודעות חשובות.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Test all matching emails, use a narrow rule, approve historical changes, prefer labeling and archiving over deletion and verify a new message.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "כלל לפי שולח בלבד עלול להסתיר אזהרות. אישור שליחה אינו הוכחת הגעה לתיבה הראשית.",
+  "prompt": "המטרה\nלסדר מיילים אוטומטיים בלי להסתיר הודעות חשובות.\n\nמה להכין\nהכינו דוגמאות, שולח, תווית והחלטה אם להשאיר בתיבה הראשית.\nGmail\nOutlook\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. חפשו את כל ההודעות שתואמות לכלל. בדקו גם התאמות לא רצויות.\n2. בחרו תנאי צר. שולח של לידים יכול לשלוח גם אזהרות.\n3. קבלו אישור על הכלל ועל טיפול בעבר. העדיפו תווית וארכוב על מחיקה.\n4. צרו מסנן. החילו על העבר רק אם אושר.\n5. ספרו לפני ואחרי. פתחו את התווית ואת התיבה הראשית.\n6. בדקו הודעה חדשה. אם מייל חסר, חפשו בכל הדואר ובספאם.\n\nהבדיקות\nהתנאי תואם לאישור. לא נמחקו הודעות. הספירה תואמת. התווית נגישה.\n\nהמגבלות\nכלל לפי שולח בלבד עלול להסתיר אזהרות. אישור שליחה אינו הוכחת הגעה לתיבה הראשית.",
+  "tools": "Gmail, Outlook",
+  "evidence": "",
+  "english": "Test all matching emails, use a narrow rule, approve historical changes, prefer labeling and archiving over deletion and verify a new message. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T13:08:42.900Z",
+  "slug": "submission-muy4iql0431r"
+}

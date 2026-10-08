@@ -1,0 +1,15 @@
+{
+  "title": "לקדם פרויקט בגלים קטנים עם ראיה לכל סגירה",
+  "request": "לקדם פרויקט בגלים קטנים עם ראיה לכל סגירה.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Define acceptance evidence before each small wave, separate deployment from business outcomes and close only externally verified tasks.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "גל אחד אינו כל הפרויקט. פריסה אינה שיפור עסקי. מדידה חלקית נשארת חלקית.",
+  "prompt": "המטרה\nלקדם פרויקט בגלים קטנים עם ראיה לכל סגירה.\n\nמה להכין\nהכינו רשימת משימות, תלות, מקור חי, מדדי בסיס ובעל סמכות. הגדירו לכל משימה תוצאה ובדיקת קבלה.\nTask board\nEvidence log\nBrowser\nTests\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. בחרו יעד מדיד. אל תשתמשו במספר תוצרים במקום תוצאה. שמרו בסיס מתוארך.\n2. סדרו לפי חוסמים וסיכון. בחרו גל קטן בתוך הסמכות. רשמו מראש איזו ראיה תספיק לכל סעיף.\n3. בצעו ושמרו יומן שינויים. קובץ מקומי הוא מוכן לפריסה, לא חי. כשל אחד לא עוצר עבודה עצמאית אחרת.\n4. בדקו את היעד האמיתי. צילום מוכיח מראה, לא קבלת הודעה, פנייה, אינדוקס או הכנסה.\n5. רשמו מזהה, זמן, גרסה, תוצאה, ראיה וחריג. הפרידו הושלם, בתהליך וחסום. שמרו מידע רגיש בפרטי.\n6. קראו מצב עדכני לפני המלצה חוזרת. סגרו רק סעיף שעבר בדיקת קבלה. דווחו הפרש וגל הבא לפי הפער ליעד.\n\nהבדיקות\nלכל סגירה יש ראיה תואמת וגרסה נכונה. מדדים בני השוואה. חריגים לא מוסתרים. אין סגירה כפולה או משימה שהושלמה רק בדוח.\n\nהמגבלות\nגל אחד אינו כל הפרויקט. פריסה אינה שיפור עסקי. מדידה חלקית נשארת חלקית.",
+  "tools": "Task board, Evidence log, Browser, Tests",
+  "evidence": "",
+  "english": "Define acceptance evidence before each small wave, separate deployment from business outcomes and close only externally verified tasks. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T10:37:56.224Z",
+  "slug": "submission-muxz4u4g9yca"
+}

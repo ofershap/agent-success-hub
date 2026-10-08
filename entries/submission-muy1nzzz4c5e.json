@@ -1,0 +1,15 @@
+{
+  "title": "להפוך בקשה ארוכה לבריף קצר שאפשר לבצע ולבדוק",
+  "request": "להפוך בקשה ארוכה לבריף קצר שאפשר לבצע ולבדוק.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Extract intent, inputs and boundaries, separate facts from assumptions, add a falsifiable completion check and compare the brief to the original.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "נוסח משופר אינו הוכחת תוצאה טובה יותר. בקשה פשוטה לא צריכה מסמך גדול.",
+  "prompt": "המטרה\nלהפוך בקשה ארוכה לבריף קצר שאפשר לבצע ולבדוק.\n\nמה להכין\nהכינו בקשה מקורית, הקשר רלוונטי ותוצר סיום.\nText editor\nProject brief\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. חלצו מטרה, החלטה, קלט וגבולות. אל תוסיפו יעד.\n2. כתבו משפט קצר לכל חלק. סדרו חובה לפני העדפה.\n3. קבעו מה צריך לבדוק ומה נשאר כהנחה מסומנת.\n4. הוסיפו בדיקת סיום שאפשר להיכשל בה.\n5. הפרידו מחקר וטיוטה מפעולה חיצונית.\n6. השוו למקור. שמרו רק שינוי שמוסיף בהירות.\n\nהבדיקות\nהכוונה נשמרה. אין פרט מומצא או הרשאה חדשה. הקלט מספיק.\n\nהמגבלות\nנוסח משופר אינו הוכחת תוצאה טובה יותר. בקשה פשוטה לא צריכה מסמך גדול.",
+  "tools": "Text editor, Project brief",
+  "evidence": "",
+  "english": "Extract intent, inputs and boundaries, separate facts from assumptions, add a falsifiable completion check and compare the brief to the original. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T11:48:49.535Z",
+  "slug": "submission-muy1nzzz4c5e"
+}

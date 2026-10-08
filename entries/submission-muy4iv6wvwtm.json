@@ -1,0 +1,15 @@
+{
+  "title": "להשוות חשבונית לשימוש לפני שטוענים לחיוב שגוי",
+  "request": "להשוות חשבונית לשימוש לפני שטוענים לחיוב שגוי.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Align invoices and usage with the billing cycle, test the strongest explanation against duplication and prepare a claim only for the remaining gap.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "אפס שימוש אינו מבטיח החזר. צריך לקרוא תנאי מנוי. הצלחה היא בירור נכון, לא בהכרח כסף שהוחזר.",
+  "prompt": "המטרה\nלהשוות חשבונית לשימוש לפני שטוענים לחיוב שגוי.\n\nמה להכין\nהכינו חשבוניות, ייצוא שימוש, מחזורי חיוב ותוכנית מנוי.\nBilling export\nSpreadsheet\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. בנו טבלה של חשבונית, תקופה, סכום וסוג חיוב.\n2. התאימו שימוש למחזור החיוב. חודש קלנדרי אינו תמיד מחזור מנוי.\n3. בדקו אם כמה חיובים הם תשלומים של חשבון אחד.\n4. חפשו את ההסבר החזק נגד טענת הכפילות. הפרידו דמי מנוי משימוש.\n5. תקנו טענה שהופרכה. הכינו פנייה רק על הפער שנותר.\n6. הציגו נמען, נתונים ונוסח לפני שליחה.\n\nהבדיקות\nכל מספר קשור לחשבונית. אין ספירה כפולה. התקופות תואמות. ראיה נגדית מוצגת.\n\nהמגבלות\nאפס שימוש אינו מבטיח החזר. צריך לקרוא תנאי מנוי. הצלחה היא בירור נכון, לא בהכרח כסף שהוחזר.",
+  "tools": "Billing export, Spreadsheet",
+  "evidence": "",
+  "english": "Align invoices and usage with the billing cycle, test the strongest explanation against duplication and prepare a claim only for the remaining gap. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T13:08:48.872Z",
+  "slug": "submission-muy4iv6wvwtm"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "לכתוב דף עסקי רק מטענות עם מקור",
+  "request": "לכתוב דף עסקי רק מטענות עם מקור.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Extract business claims, keep a dated source for each, qualify unsupported promises and return a draft without inventing services.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "דף עובדות יכול להיות ישן. אישור עסקי אינו בדיקה משפטית.",
+  "prompt": "המטרה\nלכתוב דף עסקי רק מטענות עם מקור.\n\nמה להכין\nהכינו דף עובדות מאושר, טיוטה וקהל.\nSource ledger\nEditor\nBrowser\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. חלצו טענות על מחיר, זמן, אזור, הסמכה ותוצאה.\n2. רשמו מקור ותאריך לכל טענה. הפרידו טענת עסק מבדיקה עצמאית.\n3. הסירו או סייגו טענה ללא בסיס. אל תחליפו הבטחה אחת באחרת.\n4. כתבו מחדש בשפה פשוטה. שמרו את הפעולה שהקורא צריך להבין.\n5. השוו לדף העובדות. בדקו מספרים וכתובות.\n6. מסרו טיוטה. פרסום דורש אישור נפרד.\n\nהבדיקות\nאין הבטחה ללא מקור. לא נוסף שירות שלא אושר.\n\nהמגבלות\nדף עובדות יכול להיות ישן. אישור עסקי אינו בדיקה משפטית.",
+  "tools": "Source ledger, Editor, Browser",
+  "evidence": "",
+  "english": "Extract business claims, keep a dated source for each, qualify unsupported promises and return a draft without inventing services. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T11:48:42.775Z",
+  "slug": "submission-muy1nus71vgh"
+}

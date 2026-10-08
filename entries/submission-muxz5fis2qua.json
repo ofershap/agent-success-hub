@@ -1,0 +1,15 @@
+{
+  "title": "ליישר נתונים מובנים עם הטקסט שהקורא רואה",
+  "request": "ליישר נתונים מובנים עם הטקסט שהקורא רואה.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Compare visible questions and answers to structured data, confirm the approved wording, avoid duplicate generators and recheck after deployment.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "תקינות אינה מבטיחה תצוגה מיוחדת בחיפוש. בדקו את הפלט החי.",
+  "prompt": "המטרה\nליישר נתונים מובנים עם הטקסט שהקורא רואה.\n\nמה להכין\nהכינו דפים לבדיקה ונוסח תשובות מאושר.\nBrowser\nFAQ\nJSON-LD\nStructured data validator\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. קראו טקסט גלוי ונתונים מובנים של אותו דף.\n2. השוו כל שאלה ותשובה. מבנה תקין אינו תוכן תואם.\n3. בררו איזה נוסח מאושר. אל תבחרו רק את החדש ביותר.\n4. תקנו דף אחד. אל תשנו תוכן או עיצוב שאינם בטווח.\n5. בדקו שאין שתי שכבות שמפיקות אותו מידע.\n6. אחרי פריסה קראו מחדש מהדומיין החי.\n\nהבדיקות\nהטקסט תואם. אין תשובה שלא מופיעה לקורא. המבנה תקין. אין שכבה כפולה.\n\nהמגבלות\nתקינות אינה מבטיחה תצוגה מיוחדת בחיפוש. בדקו את הפלט החי.",
+  "tools": "Browser, FAQ, JSON-LD, Structured data validator",
+  "evidence": "",
+  "english": "Compare visible questions and answers to structured data, confirm the approved wording, avoid duplicate generators and recheck after deployment. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T10:38:23.956Z",
+  "slug": "submission-muxz5fis2qua"
+}
