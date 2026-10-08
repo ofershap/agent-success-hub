@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ofershap/recipe-library",
+  "title": "Recipe library",
+  "description": "Read-only Hebrew AI-agent recipe library with search and full-text retrieval.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/ofershap/agent-success-hub",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recipes.gitshow.dev/mcp"
+    }
+  ]
+}
