@@ -14,6 +14,6 @@ class RecipeActions(unittest.TestCase):
   root=Path(__file__).resolve().parent.parent
   links=json.loads((root/'docs/recipe-whatsapp-links.json').read_text())
   for file in (root/'entries').glob('*.json'):
-   data=json.loads(file.read_text());key='issue-'+re.search(r'/issues/(\d+)$',data['issue'])[1]
+   data=json.loads(file.read_text());key=data.get('slug') or ('issue-'+re.search(r'/issues/(\d+)$',data['issue'])[1])
    self.assertIn(key+'.html',links)
    if (root/'translations'/f'{key}.md').exists():self.assertIn(key+'-en.html',links)
