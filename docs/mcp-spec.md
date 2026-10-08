@@ -1,6 +1,8 @@
 # Recipe library MCP server: Workers and own-server designs
 
-Status: **design only, not deployed**. October 8, 2026.
+Status: **live on Oracle Always Free with a Cloudflare named tunnel**. October 8, 2026.
+
+Endpoint: https://recipes.gitshow.dev/mcp . [Connection guide](mcp-connect.md). The Workers implementation was tested and rejected: production P90 27.324 ms / P99 40.120 ms exceeded the Free 10 ms CPU cap. The Node server is isolated with a memory/CPU cap; no paid service or storage binding. The design below records the alternatives and remaining operational limits.
 
 ## Goal and boundary
 
