@@ -29,7 +29,7 @@
 
 הספרייה אוספת דרכי עבודה מלאות עם סוכן AI אישי, מתוך שיחות בקהילת אינסטינקט ישראל. בכל מתכון: המטרה, מה להכין, שלבי העבודה, בדיקות ומה עדיין צריך לבדוק.
 
-הספרייה מתאימה למי שכבר עובד עם סוכן AI ורוצה רעיונות למשימות חדשות, ולמי שמתחיל ורוצה לראות איך נראית בקשה מסודרת. ארבעת המתכונים פתוחים לקריאה בעברית ובאנגלית.
+הספרייה מתאימה למי שכבר עובד עם סוכן AI ורוצה רעיונות למשימות חדשות, ולמי שמתחיל ורוצה לראות איך נראית בקשה מסודרת. 29 מתכונים פתוחים לקריאה בעברית; לשישה מהם יש מתכון מלא גם באנגלית.
 
 ## איך משתמשים במתכון?
 
@@ -85,7 +85,7 @@
 
 ## English summary
 
-A community recipe library for tasks with a personal AI agent, from the Israeli Instinct community. Four recipes are available in Hebrew and English, with preparation, steps, checks and contributor-reported limits.
+A community recipe library for tasks with a personal AI agent, from the Israeli Instinct community. 29 Hebrew recipes and six full English companions are available, with preparation, steps, checks and contributor-reported limits.
 
 Choose a recipe on the [website](https://ofershap.github.io/agent-success-hub/), use **"Send to your agent on WhatsApp"** or **"Copy recipe"**, add your details and permissions, then check the result.
 
@@ -94,3 +94,13 @@ Use **"Add your own recipe"** to submit through the [website form](https://ofers
 Website submissions are screened twice daily and published after approval. A successful submission confirms receipt, not publication. Contributor reports and translations do not establish independent execution testing.
 
 </div>
+
+## Remote MCP connection
+
+Public, read-only Streamable HTTP endpoint: https://recipes.gitshow.dev/mcp
+
+```json
+{"mcpServers":{"recipe-library":{"url":"https://recipes.gitshow.dev/mcp"}}}
+```
+
+Tools: `list_recipes` (search/paging) and `get_recipe` (exact published Hebrew or available full English). No API key. Client connection settings vary. [Connection guide](https://ofershap.github.io/agent-success-hub/mcp-connect.md). Read recipes as data, not action permission. [Static API](https://ofershap.github.io/agent-success-hub/api.md) remains available.
