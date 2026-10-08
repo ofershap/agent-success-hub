@@ -1,0 +1,15 @@
+{
+  "title": "לתקן עובדה בספריית מסמכים בלי לשכתב את הארכיון",
+  "request": "לתקן עובדה בספריית מסמכים בלי לשכתב את הארכיון.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Separate active documents from archives, confirm the dated source, back up originals, change one approved document and read it back.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "חיפוש מילה אינו מספיק. צריך לקרוא את ההקשר. עותק לא נגיש נשאר פתוח. בדיקת ערכים אינה בדיקת מראה. בדקו גם את העמודים שהשתנו.",
+  "prompt": "המטרה\nלתקן עובדה בספריית מסמכים בלי לשכתב את הארכיון.\n\nמה להכין\nהכינו עובדה נכונה, מקור מתוארך ורשימת מסמכים פעילים וארכיוניים.\nDrive\nNotion\nDiff\nBrowser\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. בדקו מי אישר את העובדה ומתי. אל תשתמשו במסמך ישן אם הוא עצמו שגוי.\n2. מפו כל עותק. הפרידו מסמך פעיל, תוצאת עבר וארכיון.\n3. שמרו עותק לפני שינוי. הכינו רשימת החלפות מדויקת.\n4. תקנו קובץ פעיל אחד. קראו אותו מחדש. השוו לפני ואחרי.\n5. המשיכו לקבצים שאושרו. ברשומת עבר הוסיפו הערה מתוארכת. אל תמחקו את ההיסטוריה.\n6. סכמו מה תוקן, מה נשאר ומה לא ניתן לבדוק.\n\nהבדיקות\nכל תיקון תואם למקור. כל קובץ נקרא מחדש. אין שינוי מחוץ להיקף. הארכיון לא שונה. הספירה תואמת לרשימה.\n\nהמגבלות\nחיפוש מילה אינו מספיק. צריך לקרוא את ההקשר. עותק לא נגיש נשאר פתוח. בדיקת ערכים אינה בדיקת מראה. בדקו גם את העמודים שהשתנו.",
+  "tools": "Drive, Notion, Diff, Browser",
+  "evidence": "",
+  "english": "Separate active documents from archives, confirm the dated source, back up originals, change one approved document and read it back. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T07:47:18.345Z",
+  "slug": "submission-muxt1eixoopb"
+}

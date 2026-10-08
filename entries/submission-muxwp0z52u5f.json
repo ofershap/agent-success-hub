@@ -1,0 +1,15 @@
+{
+  "title": "להזמין סופר עם כמויות וכללי תחליף ברורים",
+  "request": "להזמין סופר עם כמויות וכללי תחליף ברורים.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Specify units and weights, check stock, review the cart, substitutions, delivery address and total, then verify a single order and final bill.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "מלאי ומשקל יכולים להשתנות. הגעה בזמן אינה הוכחה שכל הסל הגיע. לא שולחים תלונה על איחור בלי לבדוק שהיה איחור.",
+  "prompt": "המטרה\nלהזמין סופר עם כמויות וכללי תחליף ברורים.\n\nמה להכין\nהכינו רשימת קניות, יחידות או משקל, כתובת, חלון משלוח ומדיניות תחליפים.\nShopping cart\nBrowser\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. פרקו כל שורה למוצר ולכמות. הבדילו יחידה, מארז ומשקל.\n2. בדקו מלאי חי. בנו סל מדויק. רשמו חסרים בנפרד.\n3. בדקו חלון משלוח, דמי משלוח וכללי חיוב לפי משקל.\n4. הציגו סל, חסרים, תחליפים, כתובת וסכום. קבלו אישור על המצב הזה.\n5. השתמשו בתשלום שמור. אל תבקשו פרטי כרטיס בצ׳אט.\n6. שלמו פעם אחת. אם האימות נתקע, בדקו אם כבר נוצרה הזמנה.\n7. אחרי המשלוח בדקו זמן הגעה, חוסרים וחשבון סופי.\n\nהבדיקות\nהכמויות תואמות. אין תחליף שלא אושר. יש הזמנה אחת. הסכום והכתובת תואמים לאישור.\n\nהמגבלות\nמלאי ומשקל יכולים להשתנות. הגעה בזמן אינה הוכחה שכל הסל הגיע. לא שולחים תלונה על איחור בלי לבדוק שהיה איחור.",
+  "tools": "Shopping cart, Browser",
+  "evidence": "",
+  "english": "Specify units and weights, check stock, review the cart, substitutions, delivery address and total, then verify a single order and final bill. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T09:29:39.377Z",
+  "slug": "submission-muxwp0z52u5f"
+}

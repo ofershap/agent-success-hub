@@ -1,0 +1,15 @@
+{
+  "title": "למצוא מורה לפי שפת ההוראה בפועל",
+  "request": "למצוא מורה לפי שפת ההוראה בפועל.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Separate languages spoken from the language used to teach, verify current price and availability and ask only through an approved message.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "דיבור בשפה אינו הוכחת הוראה בה. מאגר אינו הוכחת למידה או שיעור מוצלח.",
+  "prompt": "המטרה\nלמצוא מורה לפי שפת ההוראה בפועל.\n\nמה להכין\nהכינו רמה, יעד, שפת הסבר נדרשת, זמינות ותקציב.\nSearch\nTutor platform\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. הגדירו מה חובה. הוראה ב[שפה אחרת] אינה תחליף שקט ל[שפת ההוראה הנדרשת].\n2. בדקו פרופיל חי. הפרידו שפות דיבור משפת השיעור.\n3. רשמו מחיר, משך, ניסיון וזמינות. שמרו מקור ותאריך.\n4. אם המחיר שונה באתר ובאפליקציה, שמרו את שניהם.\n5. סמנו שפת הוראה שלא אומתה. הכינו שאלה למורה. פנייה דורשת אישור.\n6. מסרו טבלה פרטית. אחרי בחירה בדקו זמינות ומחיר סופי.\n\nהבדיקות\nהקישורים נפתחים. מורה לא זמינה מסומנת. שפת ההוראה נשענת על ראיה.\n\nהמגבלות\nדיבור בשפה אינו הוכחת הוראה בה. מאגר אינו הוכחת למידה או שיעור מוצלח.",
+  "tools": "Search, Tutor platform",
+  "evidence": "",
+  "english": "Separate languages spoken from the language used to teach, verify current price and availability and ask only through an approved message. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T09:29:32.491Z",
+  "slug": "submission-muxwovnvf9ce"
+}

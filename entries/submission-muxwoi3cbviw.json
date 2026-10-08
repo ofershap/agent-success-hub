@@ -1,0 +1,15 @@
+{
+  "title": "לבדוק התאמת תמונה לנושא בקבוצות דפים",
+  "request": "לבדוק התאמת תמונה לנושא בקבוצות דפים.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Map each page to its image, check the actual pixels and usage rights, fix a small approved batch and verify mobile and desktop output.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "בדיקת קוד אינה בדיקת תמונה. תיקון תמונות אינו מסיים תוכן או דירוג. אין לשלם או להמציא נכס עסקי כשמכסה נגמרת.",
+  "prompt": "המטרה\nלבדוק התאמת תמונה לנושא בקבוצות דפים.\n\nמה להכין\nהכינו [רשימת דפים], נושא, תמונה, מקור וזכויות שימוש. קבעו סמכות עריכה ופריסה ותקציב לנכסים חדשים.\nPage crawler\nImage viewer\nAsset editor\nBrowser\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. בנו טבלת דף מול תמונה. רשמו כותרת, נושא, מקור, זכויות וסטטוס. שמרו גרסה קודמת.\n2. הגדירו התאמה לפי מוצר, פעולה וסביבה. פתחו תמונה ודף בפועל. שם קובץ וטקסט חלופי אינם מספיקים.\n3. סמנו מתאים, לא מתאים או לא ודאי עם סיבה. בדקו טקסט מוטבע, לוגו ופרטים מזהים.\n4. תקנו לפי סיכון להטעיה. חפשו נכס קיים מתאים לפני יצירה חדשה. תמונה גנרית אינה הוכחה לעבודה אמיתית.\n5. בדקו את התמונה החדשה בפיקסלים: נושא, חיתוך, גודל וקריאות. בדקו שלא מסתירה פעולה או טקסט.\n6. פרסו קבוצה קטנה במסגרת אישור. פתחו כל דף שתוקן בטלפון ובמחשב. ודאו טעינה, מטמון וגרסה חיה.\n7. עדכנו את הטבלה אחרי בדיקה. השאירו חריג פתוח. תמונה שנוצרה אינה תמונה שפורסמה.\n\nהבדיקות\nנושא ותמונה תואמים. זכויות ומקור ידועים. אין מידע פרטי. החיתוך תקין. הגרסה החיה נבדקה. כל דף מכוסה או חריג מפורש.\n\nהמגבלות\nבדיקת קוד אינה בדיקת תמונה. תיקון תמונות אינו מסיים תוכן או דירוג. אין לשלם או להמציא נכס עסקי כשמכסה נגמרת.",
+  "tools": "Page crawler, Image viewer, Asset editor, Browser",
+  "evidence": "",
+  "english": "Map each page to its image, check the actual pixels and usage rights, fix a small approved batch and verify mobile and desktop output. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T09:29:14.904Z",
+  "slug": "submission-muxwoi3cbviw"
+}

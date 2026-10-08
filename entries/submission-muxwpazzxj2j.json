@@ -1,0 +1,15 @@
+{
+  "title": "לבטל חידוש מנוי בלי לוותר על זמן שכבר שולם",
+  "request": "לבטל חידוש מנוי בלי לוותר על זמן שכבר שולם.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Distinguish renewal cancellation from deleting an account or cutting access short, read current terms and verify renewal is off.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "ביטול אינו החזר. אישור ביטול אינו הוכחה שלא יהיה חיוב בעתיד. אם הפעולה מוחקת מידע או מקצרת גישה, עוצרים.",
+  "prompt": "המטרה\nלבטל חידוש מנוי בלי לוותר על זמן שכבר שולם.\n\nמה להכין\nהכינו שירות, חשבון, מועד חידוש והחלטה לבטל חידוש בלבד.\nBrowser\nSubscription settings\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. בדקו בחשבון את התוכנית, החיוב הבא וסוף התקופה.\n2. קראו את תנאי הביטול. הפרידו ביטול חידוש ממחיקת חשבון או קיצור גישה.\n3. עברו את מסכי הביטול. אל תקבלו הצעת שימור בלי החלטה חדשה.\n4. שמרו אישור סופי ותאריך. הסתירו פרטים רגישים בצילום.\n5. פתחו מחדש את עמוד המנוי. בדקו חידוש כבוי וגישה פעילה.\n6. אם צריך, קבעו בדיקת חיוב אחרי מועד החידוש.\n\nהבדיקות\nיש אישור ביטול. מועד סוף הגישה ברור. החידוש כבוי. הגישה נשמרה אם כך הובטח.\n\nהמגבלות\nביטול אינו החזר. אישור ביטול אינו הוכחה שלא יהיה חיוב בעתיד. אם הפעולה מוחקת מידע או מקצרת גישה, עוצרים.",
+  "tools": "Browser, Subscription settings",
+  "evidence": "",
+  "english": "Distinguish renewal cancellation from deleting an account or cutting access short, read current terms and verify renewal is off. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T09:29:52.367Z",
+  "slug": "submission-muxwpazzxj2j"
+}
