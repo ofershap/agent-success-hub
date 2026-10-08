@@ -1,0 +1,15 @@
+{
+  "title": "להציג מערכת פרויקטים דרך דמו בלי נתונים אמיתיים",
+  "request": "להציג מערכת פרויקטים דרך דמו בלי נתונים אמיתיים.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Use an isolated demo dataset, keep links within the demo, check views and permissions and keep it private until an audience is approved.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "נתוני דוגמה אינם הוכחת עדכון אוטומטי. גם תמונה שנמחקת יכולה להישמר.",
+  "prompt": "המטרה\nלהציג מערכת פרויקטים דרך דמו בלי נתונים אמיתיים.\n\nמה להכין\nהכינו מסכים להדגמה ורשימת פרטים שאסור לחשוף.\nNotion\nDemo dataset\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. בחרו דמו נפרד. אל תסתפקו בהחלפת שמות בפרויקט אמיתי.\n2. צרו פרויקטים ומשימות מדומים. הקישורים נשארים בתוך הדמו.\n3. הראו מצבים: פתוח, בעבודה, מחכה והושלם.\n4. בנו טבלה, לוח ויומן. סמנו יומן לדוגמה ככזה.\n5. פתחו כל מסך. בדקו קשרים והרשאות. צלמו אחרי הבדיקה.\n6. השאירו פרטי. שיתוף דורש החלטה על נמען וגישה.\n\nהבדיקות\nאין פרטי לקוח. אין קישור לפרויקט אמיתי. התצוגה מקובצת לפי השדה הנכון.\n\nהמגבלות\nנתוני דוגמה אינם הוכחת עדכון אוטומטי. גם תמונה שנמחקת יכולה להישמר.",
+  "tools": "Notion, Demo dataset",
+  "evidence": "",
+  "english": "Use an isolated demo dataset, keep links within the demo, check views and permissions and keep it private until an audience is approved. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T13:08:36.180Z",
+  "slug": "submission-muy4ileccrll"
+}
