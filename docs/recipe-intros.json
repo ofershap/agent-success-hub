@@ -64,5 +64,235 @@
     "en_prepare": "A phone with WhatsApp, a browser the agent can operate and a list of conversations it may read.",
     "en_tools": "Browser access and your own WhatsApp account. Linking and reading require consent; sending needs separate approval.",
     "topic": "וואטסאפ"
+  },
+  "submission-muxt00j56rwc": {
+    "title": "לעבור מריצה יבשה לפעולה אחת מאושרת בלי לשלוח פעמיים",
+    "description": "לעבור מריצה יבשה לפעולה אחת מאושרת בלי לשלוח פעמיים. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו [פעולה], יעד, זהות, תוכן וקבצים, גרסה, מאשר ומתג עצירה. בחרו סביבת בדיקה כשאפשר.",
+    "tools": "DRY_RUN, API, Browser, Audit log",
+    "en_title": "Move from dry run to one approved action without duplicates",
+    "en_description": "Prepare a dry run, test failures, review the final destination and content, approve one action, execute once and verify receipt before any retry.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "DRY_RUN, API, Browser, Audit log"
+  },
+  "submission-muxt1eixoopb": {
+    "title": "לתקן עובדה בספריית מסמכים בלי לשכתב את הארכיון",
+    "description": "לתקן עובדה בספריית מסמכים בלי לשכתב את הארכיון. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו עובדה נכונה, מקור מתוארך ורשימת מסמכים פעילים וארכיוניים.",
+    "tools": "Drive, Notion, Diff, Browser",
+    "en_title": "Correct a fact without rewriting an archive",
+    "en_description": "Separate active documents from archives, confirm the dated source, back up originals, change one approved document and read it back.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Drive, Notion, Diff, Browser"
+  },
+  "submission-muxt1j6czek6": {
+    "title": "לחבר קטעי וידאו לסרטון רציף בלי לאבד קריינות",
+    "description": "לחבר קטעי וידאו לסרטון רציף בלי לאבד קריינות. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו תסריט, קריינות ותמונה עם זכויות שימוש. קבעו קהל, מגבלת אורך ותקציב רינדור ותיקונים. אין צורך להשתמש בדמות או בקול מזוהים.",
+    "tools": "Video engine, ffmpeg, ffprobe, Video player",
+    "en_title": "Join video clips without losing narration",
+    "en_description": "Plan narration and render limits, inspect each segment and seam, keep source files and verify the complete encoded video and audio.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Video engine, ffmpeg, ffprobe, Video player"
+  },
+  "submission-muxt1nt8w5tz": {
+    "title": "להחליף אתר עם הפניות, בדיקת לידים ודרך חזרה",
+    "description": "להחליף אתר עם הפניות, בדיקת לידים ודרך חזרה. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו [אתר ישן], כתובות, תכנים, יעדי טפסים, מדדי בסיס, גישה מורשית לאחסון ולדומיין ואישור נפרד לפרסום.",
+    "tools": "Git, Backup, HTTP checks, Browser, Search Console",
+    "en_title": "Replace a website with redirects and a rollback plan",
+    "en_description": "Back up and test restoration, map old URLs to new URLs, test redirects and forms, obtain release approval and monitor the live result.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Git, Backup, HTTP checks, Browser, Search Console"
+  },
+  "submission-muxt1scjixjx": {
+    "title": "לכתוב חוזה עבודה עם סוכן וגבולות פעולה",
+    "description": "לכתוב חוזה עבודה עם סוכן וגבולות פעולה. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו תוצאה רצויה, נכסים, מקורות, בעלי סמכות ובדיקת סיום. תבנית אינה הרשאה.",
+    "tools": "Project brief, Task board, Change log",
+    "en_title": "Define an agent work agreement and action boundaries",
+    "en_description": "Define a measurable result, scope, inputs, permission boundaries and completion checks. The agreement does not itself grant permission.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Project brief, Task board, Change log"
+  },
+  "submission-muxwoi3cbviw": {
+    "title": "לבדוק התאמת תמונה לנושא בקבוצות דפים",
+    "description": "לבדוק התאמת תמונה לנושא בקבוצות דפים. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו [רשימת דפים], נושא, תמונה, מקור וזכויות שימוש. קבעו סמכות עריכה ופריסה ותקציב לנכסים חדשים.",
+    "tools": "Page crawler, Image viewer, Asset editor, Browser",
+    "en_title": "Check image fit across a group of pages",
+    "en_description": "Map each page to its image, check the actual pixels and usage rights, fix a small approved batch and verify mobile and desktop output.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Page crawler, Image viewer, Asset editor, Browser"
+  },
+  "submission-muxwovnvf9ce": {
+    "title": "למצוא מורה לפי שפת ההוראה בפועל",
+    "description": "למצוא מורה לפי שפת ההוראה בפועל. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו רמה, יעד, שפת הסבר נדרשת, זמינות ותקציב.",
+    "tools": "Search, Tutor platform",
+    "en_title": "Find a tutor who teaches in the required language",
+    "en_description": "Separate languages spoken from the language used to teach, verify current price and availability and ask only through an approved message.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Search, Tutor platform"
+  },
+  "submission-muxwp0z52u5f": {
+    "title": "להזמין סופר עם כמויות וכללי תחליף ברורים",
+    "description": "להזמין סופר עם כמויות וכללי תחליף ברורים. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו רשימת קניות, יחידות או משקל, כתובת, חלון משלוח ומדיניות תחליפים.",
+    "tools": "Shopping cart, Browser",
+    "en_title": "Order groceries with clear quantities and substitutions",
+    "en_description": "Specify units and weights, check stock, review the cart, substitutions, delivery address and total, then verify a single order and final bill.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Shopping cart, Browser"
+  },
+  "submission-muxwp5q9ss3v": {
+    "title": "לבדוק חיוב כפול ואת ההחזר שהגיע בפועל",
+    "description": "לבדוק חיוב כפול ואת ההחזר שהגיע בפועל. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו חשבוניות, שני חיובים, יתרת מוצר ותיאור של הקנייה הרצויה.",
+    "tools": "Invoice, Bank statement",
+    "en_title": "Verify a duplicate charge and the refund actually received",
+    "en_description": "Identify each transaction, preserve the intended purchase, review any partial refund and verify the refund independently in the bank.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Invoice, Bank statement"
+  },
+  "submission-muxwpazzxj2j": {
+    "title": "לבטל חידוש מנוי בלי לוותר על זמן שכבר שולם",
+    "description": "לבטל חידוש מנוי בלי לוותר על זמן שכבר שולם. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו שירות, חשבון, מועד חידוש והחלטה לבטל חידוש בלבד.",
+    "tools": "Browser, Subscription settings",
+    "en_title": "Cancel renewal while keeping the paid access period",
+    "en_description": "Distinguish renewal cancellation from deleting an account or cutting access short, read current terms and verify renewal is off.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Browser, Subscription settings"
+  },
+  "submission-muxz4u4g9yca": {
+    "title": "לקדם פרויקט בגלים קטנים עם ראיה לכל סגירה",
+    "description": "לקדם פרויקט בגלים קטנים עם ראיה לכל סגירה. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו רשימת משימות, תלות, מקור חי, מדדי בסיס ובעל סמכות. הגדירו לכל משימה תוצאה ובדיקת קבלה.",
+    "tools": "Task board, Evidence log, Browser, Tests",
+    "en_title": "Advance a project in small waves with evidence",
+    "en_description": "Define acceptance evidence before each small wave, separate deployment from business outcomes and close only externally verified tasks.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Task board, Evidence log, Browser, Tests"
+  },
+  "submission-muxz4zb9upbe": {
+    "title": "לבדוק הצעת מנוי לפני קנייה ולחשוף חידוש וסתירות",
+    "description": "לבדוק הצעת מנוי לפני קנייה ולחשוף חידוש וסתירות. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו קישור להצעה, צילום מחיר ויעד השימוש.",
+    "tools": "Search, Browser, Cost table",
+    "en_title": "Check subscription terms before buying",
+    "en_description": "Read plan-specific price, renewal, cancellation and refund terms, check conflicting claims and distinguish estimates from a live checkout.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Search, Browser, Cost table"
+  },
+  "submission-muxz54n0r3m5": {
+    "title": "לקנות רק אחרי אימות מוצר, סכום סופי וכתובת",
+    "description": "לקנות רק אחרי אימות מוצר, סכום סופי וכתובת. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו מוצר מדויק, תקציב כולל, כתובת ותשלום שמור.",
+    "tools": "Browser, Checkout, Vault",
+    "en_title": "Buy only after verifying product, total and address",
+    "en_description": "Verify the exact product and version, shipping, tax, delivery and returns; approve the final cart, address and total before one payment.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Browser, Checkout, Vault"
+  },
+  "submission-muxz5a5dseox": {
+    "title": "לארכב טיוטות ולבנות טבלת גרסאות בלי לשנות מקור",
+    "description": "לארכב טיוטות ולבנות טבלת גרסאות בלי לשנות מקור. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו קובצי מקור, גרסאות, תיקייה ורשימת צופים מותרת.",
+    "tools": "Drive, Notion, Diff",
+    "en_title": "Archive drafts and track versions without changing originals",
+    "en_description": "Count and preserve source files, give versions stable names, compare uploaded files and inspect access permissions and links.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Drive, Notion, Diff"
+  },
+  "submission-muxz5fis2qua": {
+    "title": "ליישר נתונים מובנים עם הטקסט שהקורא רואה",
+    "description": "ליישר נתונים מובנים עם הטקסט שהקורא רואה. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו דפים לבדיקה ונוסח תשובות מאושר.",
+    "tools": "Browser, FAQ, JSON-LD, Structured data validator",
+    "en_title": "Match structured data to visible page text",
+    "en_description": "Compare visible questions and answers to structured data, confirm the approved wording, avoid duplicate generators and recheck after deployment.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Browser, FAQ, JSON-LD, Structured data validator"
+  },
+  "submission-muy1nus71vgh": {
+    "title": "לכתוב דף עסקי רק מטענות עם מקור",
+    "description": "לכתוב דף עסקי רק מטענות עם מקור. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו דף עובדות מאושר, טיוטה וקהל.",
+    "tools": "Source ledger, Editor, Browser",
+    "en_title": "Write a business page from sourced claims",
+    "en_description": "Extract business claims, keep a dated source for each, qualify unsupported promises and return a draft without inventing services.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Source ledger, Editor, Browser"
+  },
+  "submission-muy1nzzz4c5e": {
+    "title": "להפוך בקשה ארוכה לבריף קצר שאפשר לבצע ולבדוק",
+    "description": "להפוך בקשה ארוכה לבריף קצר שאפשר לבצע ולבדוק. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו בקשה מקורית, הקשר רלוונטי ותוצר סיום.",
+    "tools": "Text editor, Project brief",
+    "en_title": "Turn a long request into a short testable brief",
+    "en_description": "Extract intent, inputs and boundaries, separate facts from assumptions, add a falsifiable completion check and compare the brief to the original.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Text editor, Project brief"
+  },
+  "submission-muy1o4hjmiz1": {
+    "title": "למפות גישה לחשבונות בלי לאסוף סודות",
+    "description": "למפות גישה לחשבונות בלי לאסוף סודות. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו שירותים, חשבונות שבבעלותכם ומה צריך לבדוק.",
+    "tools": "Account settings, Vault",
+    "en_title": "Map account access without collecting secrets",
+    "en_description": "Record account identifiers and roles without secrets, distinguish saved credentials from tested access and verify permission separately.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Account settings, Vault"
+  },
+  "submission-muy1o9dsk72h": {
+    "title": "להכין מחלוקת עם ספק בכתב ותיק ראיות מסודר",
+    "description": "להכין מחלוקת עם ספק בכתב ותיק ראיות מסודר. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו הזמנה, הצעה, הודעות מקור, תאריכים, מה אושר ומה מבקשים כעת. ציינו [מדינה] ומי רשאי לאשר עבודה, תשלום ושליחה.",
+    "tools": "Private archive, Timeline, Official legal sources",
+    "en_title": "Prepare a provider dispute with a written evidence record",
+    "en_description": "Preserve source documents, build a factual timeline, check jurisdiction-specific legal sources only when needed and prepare a message for review.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Private archive, Timeline, Official legal sources"
+  },
+  "submission-muy1oemhsye3": {
+    "title": "להשוות מתחרים עם מקור חי לכל טענה",
+    "description": "להשוות מתחרים עם מקור חי לכל טענה. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו אזור מדויק, שירותים, מתחרים ידועים ומדדים להשוואה.",
+    "tools": "Search, Browser, Spreadsheet",
+    "en_title": "Compare competitors using current sources",
+    "en_description": "Define a location and uniform metrics, read current competitor sites, distinguish website claims from verified facts and record missing data.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Search, Browser, Spreadsheet"
+  },
+  "submission-muy4ileccrll": {
+    "title": "להציג מערכת פרויקטים דרך דמו בלי נתונים אמיתיים",
+    "description": "להציג מערכת פרויקטים דרך דמו בלי נתונים אמיתיים. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו מסכים להדגמה ורשימת פרטים שאסור לחשוף.",
+    "tools": "Notion, Demo dataset",
+    "en_title": "Demo project management without real data",
+    "en_description": "Use an isolated demo dataset, keep links within the demo, check views and permissions and keep it private until an audience is approved.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Notion, Demo dataset"
+  },
+  "submission-muy4iql0431r": {
+    "title": "לסדר מיילים אוטומטיים בלי להסתיר הודעות חשובות",
+    "description": "לסדר מיילים אוטומטיים בלי להסתיר הודעות חשובות. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו דוגמאות, שולח, תווית והחלטה אם להשאיר בתיבה הראשית.",
+    "tools": "Gmail, Outlook",
+    "en_title": "Sort automated emails without hiding important messages",
+    "en_description": "Test all matching emails, use a narrow rule, approve historical changes, prefer labeling and archiving over deletion and verify a new message.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Gmail, Outlook"
+  },
+  "submission-muy4iv6wvwtm": {
+    "title": "להשוות חשבונית לשימוש לפני שטוענים לחיוב שגוי",
+    "description": "להשוות חשבונית לשימוש לפני שטוענים לחיוב שגוי. מתכון כללי עם שלבים, בדיקות ומגבלות; ללא טענת הרצה מלאה.",
+    "prepare": "הכינו חשבוניות, ייצוא שימוש, מחזורי חיוב ותוכנית מנוי.",
+    "tools": "Billing export, Spreadsheet",
+    "en_title": "Compare an invoice to usage before alleging an error",
+    "en_description": "Align invoices and usage with the billing cycle, test the strongest explanation against duplication and prepare a claim only for the remaining gap.",
+    "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
+    "en_tools": "Billing export, Spreadsheet"
   }
-}
+  }
