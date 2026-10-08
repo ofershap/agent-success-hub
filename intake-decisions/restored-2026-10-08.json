@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "submissions": {
+    "muwrsmasbdsk": {
+      "id": "muwrsmasbdsk",
+      "submitted_at": "2026-10-06T14:24:42.724Z",
+      "body_sha256": "01481503a3ee1801348e5f0745bce427de92300ab5ca6478982803cf3556c14b",
+      "screening": "rejected",
+      "reason": "Internal pipeline test, not recipe content and excluded from publication.",
+      "state": "archived",
+      "source": "website form",
+      "restored_at": "2026-10-08",
+      "restoration_note": "Restored decision record on October 8, 2026. No new screening or publication performed."
+    },
+    "muwtp6nahqu4": {
+      "id": "muwtp6nahqu4",
+      "submitted_at": "2026-10-06T15:18:01.702Z",
+      "body_sha256": "9d65ce2cda3bb74dd969c4e8cbe53ba0583ed52895addca640252bc83e62afc2",
+      "screening": "approved",
+      "reason": "Existing published generic car-criteria recipe. This record restores the prior decision; it is not a new screening.",
+      "state": "published",
+      "source": "website form",
+      "restored_at": "2026-10-08",
+      "restoration_note": "Restored decision record on October 8, 2026. No new screening or publication performed.",
+      "slug": "issue-25",
+      "author": "נתנאל באבא",
+      "content_pr": "https://github.com/ofershap/agent-success-hub/pull/26",
+      "published_url": "https://ofershap.github.io/agent-success-hub/recipes/issue-25.html",
+      "publication_verified_at": "2026-10-08"
+    }
+  }
+}
