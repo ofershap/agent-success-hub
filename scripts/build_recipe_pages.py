@@ -56,7 +56,7 @@ data=json.loads((r/'docs/entries.json').read_text());out=r/'docs/recipes';out.mk
 links=[];urls=[BASE,BASE+'about.html',BASE+'submit.html',BASE+'start.html']
 for old in out.glob('*.html'):old.unlink()
 for i,d in enumerate(data):
- m=re.search(r'/issues/(\d+)$',d.get('issue',''));key='issue-'+m[1] if m else 'entry-'+str(i+1)
+ m=re.search(r'/issues/(\d+)$',d.get('issue',''));key=d.get('slug') or ('issue-'+m[1] if m else 'entry-'+str(i+1))
  dmeta=intros[key]
  page=key+'.html';url=BASE+'recipes/'+page;urls.append(url);links.append((d['title'],url))
  labels=[('before-start','לפני שמתחילים'),('prompt','המתכון המלא'),('background','רקע ובדיקות')]
