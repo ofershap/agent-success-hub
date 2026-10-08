@@ -1,0 +1,15 @@
+{
+  "title": "לקנות רק אחרי אימות מוצר, סכום סופי וכתובת",
+  "request": "לקנות רק אחרי אימות מוצר, סכום סופי וכתובת.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Verify the exact product and version, shipping, tax, delivery and returns; approve the final cart, address and total before one payment.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "תשלום אינו אספקה. כתובת שמורה יכולה להיות ישנה. לא מבקשים מספר כרטיס בצ׳אט.",
+  "prompt": "המטרה\nלקנות רק אחרי אימות מוצר, סכום סופי וכתובת.\n\nמה להכין\nהכינו מוצר מדויק, תקציב כולל, כתובת ותשלום שמור.\nBrowser\nCheckout\nVault\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. בדקו מותג ודגם לפני חיפוש. שם דומה אינו אותו מוצר.\n2. בדקו מלאי וגרסה. חשבו מוצר, משלוח ומסים.\n3. בדקו אספקה והחזרה. הציגו נתון חסר.\n4. הציגו סל, כתובת וסכום סופי. קבלו אישור על שלושתם.\n5. בצעו רק אחרי שהמוצר, הסכום והכתובת עדיין תואמים לאישור. שלמו פעם אחת. בלי תשובה ברורה, בדקו הזמנה לפני ניסיון נוסף.\n6. קראו את האישור. אספקה נבדקת בנפרד.\n\nהבדיקות\nהמוצר מדויק. הסכום והכתובת תואמים לאישור. אין שתי הזמנות.\n\nהמגבלות\nתשלום אינו אספקה. כתובת שמורה יכולה להיות ישנה. לא מבקשים מספר כרטיס בצ׳אט.",
+  "tools": "Browser, Checkout, Vault",
+  "evidence": "",
+  "english": "Verify the exact product and version, shipping, tax, delivery and returns; approve the final cart, address and total before one payment. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T10:38:09.852Z",
+  "slug": "submission-muxz54n0r3m5"
+}
