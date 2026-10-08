@@ -1,0 +1,15 @@
+{
+  "title": "להשוות מתחרים עם מקור חי לכל טענה",
+  "request": "להשוות מתחרים עם מקור חי לכל טענה.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Define a location and uniform metrics, read current competitor sites, distinguish website claims from verified facts and record missing data.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "מדגם אינו כל השוק. אתר טוב אינו הוכחה לרווח. לא פונים למתחרים כחלק מהמחקר.",
+  "prompt": "המטרה\nלהשוות מתחרים עם מקור חי לכל טענה.\n\nמה להכין\nהכינו אזור מדויק, שירותים, מתחרים ידועים ומדדים להשוואה.\nSearch\nBrowser\nSpreadsheet\nממלאים [כלי], [חשבון], [יעד] ו[בעל סמכות] לפני עבודה. גישה אינה רשות לשנות, לשתף או לשלם. כסף, מסירה לאדם אחר ופרסום דורשים אישור נפרד של המצב הסופי.\n\nהשלבים\n1. קבעו טווח. בדקו שמות מקומות וגבולות. שם דומה אינו אותה עיר.\n2. בנו רשימת מתחרים. אל תחליפו מתחרה שניתן בלי לסמן זאת.\n3. בחרו מדדים אחידים. בדקו כל אתר חי ושמרו מקור ותאריך.\n4. הפרידו טענת אתר מעובדה שנבדקה. אל תעתיקו הבטחות.\n5. פתחו במובייל. בדקו טקסט, פעולה ראשית וקישור חיוג.\n6. סכמו פערים שאפשר לפעול עליהם. סמנו מידע חסר.\n\nהבדיקות\nכל שורה מזוהה. הטווח נכון. המדדים אחידים. אין דירוג ללא בסיס.\n\nהמגבלות\nמדגם אינו כל השוק. אתר טוב אינו הוכחה לרווח. לא פונים למתחרים כחלק מהמחקר.",
+  "tools": "Search, Browser, Spreadsheet",
+  "evidence": "",
+  "english": "Define a location and uniform metrics, read current competitor sites, distinguish website claims from verified facts and record missing data. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T11:49:08.489Z",
+  "slug": "submission-muy1oemhsye3"
+}
