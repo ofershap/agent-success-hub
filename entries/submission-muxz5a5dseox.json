@@ -1,0 +1,15 @@
+{
+  "title": "לארכב טיוטות ולבנות טבלת גרסאות בלי לשנות מקור",
+  "request": "לארכב טיוטות ולבנות טבלת גרסאות בלי לשנות מקור.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Count and preserve source files, give versions stable names, compare uploaded files and inspect access permissions and links.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "תווים ובתים אינם אותה יחידה. שינוי גישה בירושה יכול לחסום גם את החיבור שמתחזק את המאגר.",
+  "prompt": "המטרה\nלארכב טיוטות ולבנות טבלת גרסאות בלי לשנות מקור.\n\nמה להכין\nהכינו קובצי מקור, גרסאות, תיקייה ורשימת צופים מותרת.\nDrive\nNotion\nDiff\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. ספרו קבצים. מקור חסר נשאר חסר. אל תשחזרו אותו מהזיכרון.\n2. שמרו עותק ללא שינוי. תנו שם וגרסה קבועים.\n3. בנו טבלה: כותרת, גרסה, סטטוס, תאריך וקישור.\n4. פתחו את הקבצים לאחר העלאה. השוו למקור.\n5. בדקו הרשאות תיקייה ומאגר. הסירו רק גישה לא רצויה שאושרה להסרה.\n6. בדקו טבלה וכרטיסים בטלפון. מסרו קישור שימושי.\n\nהבדיקות\nהספירה נכונה. המקור לא השתנה. כל קישור מוביל לקובץ הנכון. ״לא הוגש״ אינו משתנה בלי ראיה.\n\nהמגבלות\nתווים ובתים אינם אותה יחידה. שינוי גישה בירושה יכול לחסום גם את החיבור שמתחזק את המאגר.",
+  "tools": "Drive, Notion, Diff",
+  "evidence": "",
+  "english": "Count and preserve source files, give versions stable names, compare uploaded files and inspect access permissions and links. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T10:38:16.993Z",
+  "slug": "submission-muxz5a5dseox"
+}
