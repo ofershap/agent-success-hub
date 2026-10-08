@@ -12,6 +12,7 @@ def validate_translation(text):
 
 def translation_for(root,entry):
  m=re.search(r'/issues/(\d+)$',entry.get('issue',''))
- if not m:return None
- path=Path(root)/'translations'/('issue-'+m.group(1)+'.md')
+ if not m and not entry.get('slug'):return None
+ key=entry.get('slug') or ('issue-'+m.group(1))
+ path=Path(root)/'translations'/(key+'.md')
  return validate_translation(path.read_text()) if path.exists() else None
