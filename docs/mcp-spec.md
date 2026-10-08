@@ -1,4 +1,4 @@
-# Recipe library MCP server: Workers design
+# Recipe library MCP server: Workers and own-server designs
 
 Status: **design only, not deployed**. October 8, 2026.
 
@@ -8,9 +8,9 @@ Expose the public recipe library to MCP clients through two read-only tools: `li
 
 ## Transport and deployment
 
-Use Streamable HTTP at `/mcp` with Cloudflare's current `createMcpHandler` and the official MCP TypeScript SDK. Initialize a server per request using a stateless handler. Support protocol initialization, tool listing and tool calls through the SDK; do not hand-write a partial JSON-RPC approximation. Legacy SSE is not required. Do not advertise a endpoint URL until one is deployed and tested.
+Use Streamable HTTP at `/mcp` with Cloudflare's current `createMcpHandler` and the official MCP TypeScript SDK. Initialize a server per request using a stateless handler. Support protocol initialization, tool listing and tool calls through the SDK; do not hand-write a partial JSON-RPC approximation. Legacy SSE is not required. Do not advertise an endpoint URL until one is deployed and tested.
 
-Use a dedicated Worker on the existing account, Workers Free only. No Durable Object, KV, D1, R2, paid API or paid upgrade is needed for this public read-only version. No cron. Cloudflare currently documents 100,000 requests/day for Workers Free and 10 ms CPU time per request. Fetch/wait time differs from CPU time. Exceeding limits can fail requests; this design makes no promise of unlimited availability. Inspect the account plan and current limits again before any deployment. Stop instead of enabling a paid plan.
+Use a dedicated Worker on a verified Workers Free account. No Durable Object, KV, D1, R2, paid API or paid upgrade is needed for this public read-only version. No cron. Cloudflare currently documents 100,000 requests/day for Workers Free and 10 ms CPU time per request. Fetch/wait time differs from CPU time. Exceeding limits can fail requests; this design makes no promise of unlimited availability. Inspect the account plan and current limits again before any deployment. Stop instead of enabling a paid plan.
 
 ## Data and cache
 
@@ -77,8 +77,7 @@ Choose the Worker name and public route, supported client origins, operational o
 | Cloudflare Workers Free | Small, public read-only MCP with managed HTTPS and no VM upkeep | 100,000 requests/day and 10 ms CPU/request; account must actually be Free; no paid bindings | First choice for this stateless library after CPU measurement and account-plan verification. |
 | Existing Oracle Always Free VM | A Node/TypeScript HTTP service under our control | Verify existing instance eligibility, spare resources, firewall and HTTPS first; no paid upgrade or new resources outside Always Free | Valid own-server alternative, especially if Workers CPU limits are too tight. |
 | GitHub Pages + Actions | Static source, generated artifacts and build/deploy automation | Pages is static; Actions is a bounded job, not an always-on web server | Keep as source/build layer, not live MCP hosting. |
-| Deno Deploy | Serverless JS/TS can serve HTTP | A previous free project does not prove today's plan or limits; current access/plan not verified here | Secondary candidate only after a separate current-plan check. |
-| Fly.io or temporary credits | Container hosting | Credits are finite and historical credits are not a permanent free plan | Not selected for a zero-cost commitment. |
+| Deno Deploy | Serverless JS/TS can serve HTTP | Current account plan and limits not verified here | Secondary candidate only after a separate current-plan check. |
 
 The Oracle variant runs a dedicated Node LTS/TypeScript process using the official MCP SDK's Streamable HTTP transport. Bind to loopback on a separate port; terminate HTTPS at the existing reverse proxy after checking it, with a distinct route and service user. Use systemd restart-on-failure and explicit CPU/memory limits. Keep the same two tools, public fixed upstream URLs, validation, cache and error contracts. No browser, residential proxy, database, GPU or paid model API is needed.
 
