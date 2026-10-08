@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ofershap.github.io/agent-success-hub/entries.schema.json",
+  "title": "Recipe library entries, contract 1.0.0",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "title",
+      "request",
+      "actions",
+      "worked",
+      "failed",
+      "prompt",
+      "english",
+      "consent"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "request": {
+        "type": "string"
+      },
+      "actions": {
+        "type": "string"
+      },
+      "worked": {
+        "type": "string"
+      },
+      "failed": {
+        "type": "string"
+      },
+      "prompt": {
+        "type": "string"
+      },
+      "tools": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "english": {
+        "type": "string"
+      },
+      "english_source": {
+        "type": "string"
+      },
+      "author": {
+        "type": "string"
+      },
+      "submitted_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "issue": {
+        "type": "string",
+        "format": "uri"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"
+      },
+      "english_kind": {
+        "type": "string"
+      },
+      "recipe_en": {
+        "type": "string"
+      },
+      "consent": {
+        "type": "boolean",
+        "const": true
+      }
+    },
+    "anyOf": [
+      {
+        "required": [
+          "slug"
+        ]
+      },
+      {
+        "required": [
+          "issue"
+        ]
+      }
+    ]
+  }
+}
