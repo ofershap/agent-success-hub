@@ -1,0 +1,15 @@
+{
+  "title": "לבדוק הצעת מנוי לפני קנייה ולחשוף חידוש וסתירות",
+  "request": "לבדוק הצעת מנוי לפני קנייה ולחשוף חידוש וסתירות.",
+  "actions": "דרך עבודה מוצעת לשימוש מחדש: Read plan-specific price, renewal, cancellation and refund terms, check conflicting claims and distinguish estimates from a live checkout.",
+  "worked": "התרומה כוללת מתכון כללי עם קלט, שלבים ובדיקות. לא צורפו ראיות להרצה מלאה או לתוצאות בפועל.",
+  "failed": "צילום מחיר אינו קופה חיה. אי־מציאת מחקר אינה הוכחה שאין מחקר. לא נרשמים ולא משלמים במחקר.",
+  "prompt": "המטרה\nלבדוק הצעת מנוי לפני קנייה ולחשוף חידוש וסתירות.\n\nמה להכין\nהכינו קישור להצעה, צילום מחיר ויעד השימוש.\nSearch\nBrowser\nCost table\nממלאים [כלי], [חשבון] ו[יעד]. מאשרים טווח וגישה לפני עבודה. המחקר והטיוטה אינם אישור לשינוי, תשלום, שיתוף או שליחה.\n\nהשלבים\n1. פתחו את ההצעה. בדקו שזה המוצר הרצוי.\n2. קראו מחיר, חידוש, ביטול והחזר. בדקו הבדלים בין שפות.\n3. רשמו מי מפעיל את השירות ומה הוכח על זהותו.\n4. בדקו מקורות עצמאיים. תלונת חיוב אינה בדיקת איכות.\n5. חשבו עלות לתקופה ובשנה. אם מוצג מטבע אחר, בדקו שער והוצאות המרה עדכניות. זה אומדן עד לקופה חיה.\n6. מסרו החלטה עם תנאים וראיה חזקה נגד ההמלצה.\n\nהבדיקות\nהמחיר לתוכנית הנכונה. החידוש ברור. טענה מסומנת לפי מה שנבדק.\n\nהמגבלות\nצילום מחיר אינו קופה חיה. אי־מציאת מחקר אינה הוכחה שאין מחקר. לא נרשמים ולא משלמים במחקר.",
+  "tools": "Search, Browser, Cost table",
+  "evidence": "",
+  "english": "Read plan-specific price, renewal, cancellation and refund terms, check conflicting claims and distinguish estimates from a live checkout. This is a proposed reusable workflow, not independent evidence of a completed run. Check the full Hebrew recipe and its limits. Account changes, communications, publication and spending require separate approval.",
+  "consent": true,
+  "author": "גל מוסקוביץ׳",
+  "submitted_at": "2026-10-07T10:38:02.949Z",
+  "slug": "submission-muxz4zb9upbe"
+}
