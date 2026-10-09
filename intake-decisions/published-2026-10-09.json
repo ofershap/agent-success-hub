@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "submissions": {
+    "mv0ymbo2zyvb": {
+      "id": "mv0ymbo2zyvb",
+      "submitted_at": "2026-10-09T12:46:51.026Z",
+      "body_sha256": "a20192c623698f2f3009d35900379c06b9ea3ff76d3ebe251b9f1cb9c56b42b3",
+      "screening": "approved",
+      "reason": "Safety review clean (cited OSS repo is markdown-only methodology, no exfil/network, npx installer legitimate); all four quality claims reproduced locally (TypeError before fix, correct dict after rb, FileNotFoundError and TOMLDecodeError propagate); cited sources verified live. Generic standalone workflow, no private data or secrets.",
+      "state": "published",
+      "slug": "submission-mv0ymbo2zyvb",
+      "source": "website form",
+      "author": "",
+      "content_pr": "https://github.com/ofershap/agent-success-hub/pull/41",
+      "published_url": "https://ofershap.github.io/agent-success-hub/recipes/submission-mv0ymbo2zyvb.html",
+      "live_verified_at": "2026-10-09T18:42:18.154771+00:00",
+      "source_exact": true,
+      "entry_file_sha256": "7455c228f7ccad66caa3241c2561af3c207f3272b27de6774f7e93791ebd2462",
+      "entry_sha256_matches_live_main": true
+    }
+  }
+}
