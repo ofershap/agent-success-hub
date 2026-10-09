@@ -294,5 +294,15 @@
     "en_description": "Align invoices and usage with the billing cycle, test the strongest explanation against duplication and prepare a claim only for the remaining gap.",
     "en_prepare": "Task-specific inputs listed in the full Hebrew recipe.",
     "en_tools": "Billing export, Spreadsheet"
-  }
+  },
+  "submission-mv0ymbo2zyvb": {
+    "title": "לתקן באג עם סוכן קוד: מקור רשמי, תיקון קטן ובדיקה שאפשר להיכשל בה",
+    "description": "תיקון באג עם סוכן קוד מול תיעוד רשמי ובדיקות, בלי להסתפק ב\"הסוכן אמר שזה עובד\". דוגמת TOML ב-Python 3.11; שוחזרה בסקירת הספרייה.",
+    "prepare": "סוכן קוד עם גישה לקבצים, לתיעוד ולטרמינל; Python 3.11; תיקיית ניסוי ללא מידע פרטי.",
+    "tools": "Coding agent, Python 3.11, Terminal",
+    "en_title": "Fix a bug with a coding agent: official source, small fix, failable test",
+    "en_description": "Fix a bug against official documentation with before/after tests instead of trusting the agent's say-so. Python 3.11 TOML example; reproduced during library review.",
+    "en_prepare": "A coding agent with file, docs and terminal access; Python 3.11; a private-data-free experiment directory.",
+    "en_tools": "Coding agent, Python 3.11, Terminal"
+    }
   }
