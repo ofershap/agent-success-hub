@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "submissions": {
+    "muwtp6nahqu4": {
+      "id": "muwtp6nahqu4",
+      "submitted_at": "2026-10-06T15:18:01.702Z",
+      "body_sha256": "9d65ce2cda3bb74dd969c4e8cbe53ba0583ed52895addca640252bc83e62afc2",
+      "screening": "approved",
+      "reason": "Duplicate of an already-published recipe: identical title, author and submitted_at as entries/issue-25.json (same recipe, same author, submitted via the GitHub issue path). Merged by mistake as PR #45, reverted by PR #46. Canonical page is issue-25.",
+      "state": "duplicate-published",
+      "slug": "issue-25",
+      "source": "website form",
+      "author": "נתנאל באבא",
+      "content_pr": "https://github.com/ofershap/agent-success-hub/pull/46",
+      "published_url": "https://ofershap.github.io/agent-success-hub/recipes/issue-25.html",
+      "live_verified_at": "2026-10-21T19:08:40+00:00",
+      "source_exact": true
+    },
+    "muwrsmasbdsk": {
+      "id": "muwrsmasbdsk",
+      "submitted_at": "2026-10-06T14:24:42.724Z",
+      "body_sha256": "01481503a3ee1801348e5f0745bce427de92300ab5ca6478982803cf3556c14b",
+      "screening": "rejected",
+      "reason": "Self-declared system test (HUB-FORM-20261006-1724), not a recipe.",
+      "state": "rejected",
+      "slug": "",
+      "source": "website form",
+      "author": "",
+      "content_pr": "",
+      "published_url": "",
+      "live_verified_at": "",
+      "source_exact": true
+    }
+  }
+}
