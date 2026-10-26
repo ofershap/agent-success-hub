@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "submissions": {
+    "mvp79pqsvm74": {
+      "id": "mvp79pqsvm74",
+      "submitted_at": "2026-10-26T11:55:27.508Z",
+      "body_sha256": "f30790f117a637e8921dba5d931019c9ab752b8cc79c6bd2b5ffe7b06f9ed701",
+      "screening": "approved",
+      "reason": "Owner requested public generic recipe26Oct13:47; actual message recovered. No private data; proposed workflow not outcome proof. Scores subjective; no independent end-to-end trial claimed. Original prompt preserved byte-exact.",
+      "state": "published",
+      "slug": "submission-mvp79pqsvm74",
+      "source": "website form",
+      "author": "",
+      "content_pr": "https://github.com/ofershap/agent-success-hub/pull/49",
+      "published_url": "https://ofershap.github.io/agent-success-hub/recipes/submission-mvp79pqsvm74.html",
+      "live_verified_at": "2026-10-26T21:52:00+02:00",
+      "source_exact": true,
+      "received": true,
+      "screened": true,
+      "published": true
+    }
+  }
+}
