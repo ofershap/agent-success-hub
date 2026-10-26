@@ -315,5 +315,16 @@
     "en_prepare": "The exact website URL, a sample reading task and the information you are allowed to inspect.",
     "en_tools": "HTTP and HTML/JSON reading tools, a browser for dynamic content and an MCP client when a server is published. Read only, without data changes or vulnerability scanning.",
     "topic": "אתר"
+  },
+  "submission-mvp79pqsvm74": {
+    "title": "לבנות ולבדוק משחק, אתר או אפליקציה",
+    "description": "מחליטים לפני הבנייה, עובדים בטיוטה ובודקים את המוצר מכמה זוויות עם ראיות ולא רק ציונים.",
+    "prepare": "מה בונים, למי, מה נחשב הצלחה וחומר מקור שמותר להשתמש בו.",
+    "tools": "סוכן עם חיפוש, סביבת טיוטה, דפדפן וצילומי מסך.",
+    "en_title": "Build and review a game, website or app",
+    "en_description": "Decide before building, work in a preview and review the running result from several angles with evidence.",
+    "en_prepare": "What to build, the audience, success criteria and approved source material.",
+    "en_tools": "An agent with search, a preview environment, browser and screenshots.",
+    "topic": "עיצוב ובדיקות"
   }
 }
