@@ -16,7 +16,7 @@ Use a dedicated Worker on a verified Workers Free account. No Durable Object, KV
 
 ## Data and cache
 
-Read only fixed URLs under `https://ofershap.github.io/agent-success-hub/`: `entries.json` and `entries-meta.json`. Use a cache key tied to the version/data hash. Cache successful responses for five minutes and retain the upstream ETag when present. Include dataset hash/version in results so clients know their snapshot. Do not expose a user-supplied upstream URL.
+Read only fixed URLs under `https://itzik-community-benefits.pages.dev/library/`: `entries.json` and `entries-meta.json`. Use a cache key tied to the version/data hash. Cache successful responses for five minutes and retain the upstream ETag when present. Include dataset hash/version in results so clients know their snapshot. Do not expose a user-supplied upstream URL.
 
 Validate the array with the documented schema at ingestion. Reject oversize upstream payloads above 1 MB and malformed content. At 29 recipes the dataset is small; measure CPU and memory under load before launch rather than assuming it fits. Return a clear unavailable/stale status for upstream failures. If serving a previously validated cached snapshot, include its age and mark it stale. Never return partial invalid data.
 

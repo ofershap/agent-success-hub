@@ -1,7 +1,7 @@
 """Build public, read-only discovery artifacts from already-reviewed recipes."""
 from pathlib import Path
 import json,re,hashlib
-BASE='https://ofershap.github.io/agent-success-hub/'
+BASE='https://itzik-community-benefits.pages.dev/library/'
 VERSION='1.0.0'
 def slug(d):
  if d.get('slug'):return d['slug']

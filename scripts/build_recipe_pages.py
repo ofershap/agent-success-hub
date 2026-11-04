@@ -2,8 +2,8 @@
 from pathlib import Path
 import html,json,re
 r=Path(__file__).resolve().parent.parent
-BASE='https://ofershap.github.io/agent-success-hub/'
-SUBMIT=BASE+'submit.html'
+BASE='https://itzik-community-benefits.pages.dev/library/'
+SUBMIT=BASE+'submit/'
 esc=lambda t:html.escape(str(t),quote=True)
 links_manifest=json.loads((r/'docs/recipe-whatsapp-links.json').read_text())
 intros=json.loads((r/'docs/recipe-intros.json').read_text())
@@ -53,7 +53,7 @@ def shell(title,desc,url,english,body,schema):
  disclaimer='Execution, account access, messages and spending need separate permission. Testing status is the contributor\'s report.' if english else 'הרשאות להרצה, חשבונות, שליחה ותשלום ניתנות בנפרד. רמת הבדיקה היא דיווח של התורם.'
  return '<!doctype html><html lang="'+lang+'" dir="'+direction+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' | Personal AI agent recipes</title><meta name="description" content="'+esc(desc[:150])+'"><link rel="canonical" href="'+url+'"><link rel="stylesheet" href="../style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head><body><a class="skip-link" href="#recipe-content">'+('Skip to recipe' if english else 'למתכון')+'</a><header><a class="brand" href="../"><img src="../instinct-logo.png" alt="" class="brand-logo">'+brand+'</a><nav><a href="../start.html">'+('Getting started (Hebrew)' if english else 'מתחילים כאן')+'</a><a href="../about.html">'+about+'</a><a href="https://github.com/ofershap/agent-success-hub">GitHub ↗</a></nav></header><main id="recipe-content" class="recipe-main">'+body+'</main><footer><p><img src="../instinct-logo.png" alt="Instinct" class="instinct-logo">Instinct · Personal AI agent recipes</p><p>'+disclaimer+'</p><a href="../">'+home+'</a></footer><script src="../recipe-copy.js"></script></body></html>'
 data=json.loads((r/'docs/entries.json').read_text());out=r/'docs/recipes';out.mkdir(exist_ok=True)
-links=[];urls=[BASE,BASE+'about.html',BASE+'submit.html',BASE+'start.html']
+links=[];urls=[BASE,BASE+'about.html',BASE+'submit/',BASE+'start.html']
 for old in out.glob('*.html'):old.unlink()
 for i,d in enumerate(data):
  m=re.search(r'/issues/(\d+)$',d.get('issue',''));key=d.get('slug') or ('issue-'+m[1] if m else 'entry-'+str(i+1))
@@ -82,8 +82,14 @@ for i,d in enumerate(data):
   content='<div class="recipe-layout">'+entoc+'<div>'+orientation(key,True)+'<p class="recipe-summary">English translation of the contributor recipe. Check its testing status and limits before use.</p><button id="copy-recipe" class="copy-recipe-button" data-copy="recipe-en" type="button">Copy recipe</button><article id="recipe-body" class="recipe-text">'+markdown(d['recipe_en'])+'</article><pre id="recipe-en" hidden>'+esc(d['recipe_en'])+'</pre><aside>Website submissions are reviewed twice daily and published after screening and approval. Content is public when published. Share only approved content, without secrets or private information.</aside></div></div>'
   (out/enpage).write_text(shell(title,d['english'],enurl,True,intro+content+'<p class="recipe-provenance">By: '+esc(d.get('author',''))+'</p>',enschema))
 (r/'docs/sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>')
-(r/'docs/llms.txt').write_text((r/'docs/llms.txt').read_text().split('\n## Published recipes')[0]+'\n## Published recipes\n'+''.join('- ['+title.replace('\n',' ')+']('+u+')\n' for title,u in links))
+(r/'docs/llms.txt').write_text((r/'docs/llms.txt').read_text().replace('https://ofershap.github.io/agent-success-hub/submit.html',SUBMIT).replace('https://ofershap.github.io/agent-success-hub/',BASE).split('\n## Published recipes')[0]+'\n## Published recipes\n'+''.join('- ['+title.replace('\n',' ')+']('+u+')\n' for title,u in links))
 print('Built',len(data),'bilingual recipe pages')
 # Keep all public discovery formats synchronized with the HTML deployment.
 from build_ai_access import build as build_ai_access
 build_ai_access(r)
+
+# Compatibility publication only. Local generation is an intermediate consumed by
+# benefits refresh-recipes.py; the existing Pages workflow publishes redirects.
+import os,runpy
+if os.environ.get('GITHUB_ACTIONS')=='true':
+ runpy.run_path(str(r/'scripts/build_redirects.py'),run_name='__main__')

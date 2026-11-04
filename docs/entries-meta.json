@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "schema_url": "https://itzik-community-benefits.pages.dev/library/entries.schema.json",
+  "data_url": "https://itzik-community-benefits.pages.dev/library/entries.json",
+  "documentation_url": "https://itzik-community-benefits.pages.dev/library/api.md",
+  "changelog_url": "https://itzik-community-benefits.pages.dev/library/api-changelog.md",
+  "recipe_count": 32,
+  "sha256": "9113d3cb5b08cd0007e9925c3062296606a900cf90b8cf0e581c79c11c66934e"
+}

@@ -9,7 +9,7 @@ class RecipeActions(unittest.TestCase):
    self.assertLessEqual(len(link),2048)
    self.assertEqual(urlparse(link).path,'/16508702892')
    message=parse_qs(urlparse(link).query)['text'][0]
-   self.assertTrue(message.endswith('https://ofershap.github.io/agent-success-hub/recipes/'+filename))
+   self.assertTrue(message.endswith('https://itzik-community-benefits.pages.dev/library/recipes/'+filename[:-5]+'/'))
  def test_all_current_recipes_have_actions(self):
   root=Path(__file__).resolve().parent.parent
   links=json.loads((root/'docs/recipe-whatsapp-links.json').read_text())
