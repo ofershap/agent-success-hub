@@ -2,7 +2,7 @@ import unittest
 from pathlib import Path
 from html.parser import HTMLParser
 ROOT=Path(__file__).resolve().parent.parent
-FORM='https://ofershap.github.io/agent-success-hub/submit.html'
+FORM='https://itzik-community-benefits.pages.dev/library/submit/'
 class SubmissionTests(unittest.TestCase):
  def test_schema_and_destination(self):
   page=(ROOT/'docs/submit.html').read_text();script=(ROOT/'docs/submit.js').read_text()
@@ -11,4 +11,4 @@ class SubmissionTests(unittest.TestCase):
  def test_instructions_have_url(self):
   for path in ['docs/llms.txt','AGENTS.md','docs/about.html']:self.assertIn(FORM,(ROOT/path).read_text())
  def test_recipe_destination(self):
-  self.assertIn("SUBMIT=BASE+'submit.html'",(ROOT/'scripts/build_recipe_pages.py').read_text())
+  self.assertIn("SUBMIT=BASE+'submit/'",(ROOT/'scripts/build_recipe_pages.py').read_text())

@@ -8,4 +8,4 @@ class RecipeIntros(unittest.TestCase):
    data=json.loads(path.read_text());key=data.get('slug') or ('issue-'+re.search(r'/issues/(\d+)$',data['issue'])[1])
    for field in ['title','description','prepare','tools','en_title','en_description','en_prepare','en_tools']:self.assertTrue(intros[key][field])
  def test_getting_started_is_linked(self):
-  for file in ['docs/index.html','docs/about.html','docs/llms.txt']:self.assertIn('start.html',(ROOT/file).read_text())
+  for file in ['docs/index.html','docs/about.html','docs/llms.txt']:self.assertTrue('start.html' in (ROOT/file).read_text() or '/start/' in (ROOT/file).read_text())
