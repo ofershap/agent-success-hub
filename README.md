@@ -1,5 +1,21 @@
+# ספריית מתכוני הקהילה - מקור ותרומות
+
+הספרייה עברה לתוך אתר ההטבות: https://itzik-community-benefits.pages.dev/library/
+
+האתר הישן נסגר כממשק עצמאי ומפנה לדפים החדשים. המאגר הזה נשמר כמקור המתכונים, היסטוריית Git ותהליך התרומות. הגשות חדשות: https://itzik-community-benefits.pages.dev/library/submit/ . אפשר גם לפתוח Issue דרך הטופס במאגר. הגשות אינן מתפרסמות אוטומטית: בדיקה, הסרת פרטים אישיים, בדיקות, תרגום לפי הצורך ואישור לפני מיזוג ופרסום.
+
+## Publication
+
+`entries/` and `translations/` are the reviewed source. `scripts/build.py` validates and exports the dataset. The benefits website consumes this source through its `refresh-recipes.py` pipeline. Before a new recipe goes live its WhatsApp action link must be generated and reviewed. The operator deploys the benefits preview, tests all affected journeys, obtains the Main visual gate, then promotes production. Repository Pages only serves compatibility redirects. No private benefits repository or credentials are made public.
+
+MCP stays at https://recipes.gitshow.dev/mcp and reads data from the new library. JSON/feed/Markdown: https://itzik-community-benefits.pages.dev/library/api.md .
+
+## Earlier documentation
+
+The migration note above supersedes old GitHub Pages publication pointers below. Historical project details are retained for provenance.
+
 <div align="center">
-  <a href="https://ofershap.github.io/agent-success-hub/">
+  <a href="https://itzik-community-benefits.pages.dev/library/">
     <img src="docs/instinct-logo.png" alt="Instinct" width="110">
   </a>
   <h1 dir="rtl">ספריית המתכונים לסוכן AI אישי</h1>
@@ -12,13 +28,13 @@
 </div>
 
 <div align="center">
-<b><a href="https://ofershap.github.io/agent-success-hub/">הספרייה</a> · <a href="https://ofershap.github.io/agent-success-hub/start.html">מתחילים כאן</a> · <a href="https://ofershap.github.io/agent-success-hub/submit.html">הוסף מתכון משלך</a> · <a href="https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB">הקהילה בוואטסאפ</a></b>
+<b><a href="https://itzik-community-benefits.pages.dev/library/">הספרייה</a> · <a href="https://itzik-community-benefits.pages.dev/library/start/">מתחילים כאן</a> · <a href="https://itzik-community-benefits.pages.dev/library/submit/">הוסף מתכון משלך</a> · <a href="https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB">הקהילה בוואטסאפ</a></b>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://ofershap.github.io/agent-success-hub/">
+  <a href="https://itzik-community-benefits.pages.dev/library/">
     <img src="docs/site-preview.png" alt="דף הבית של ספריית המתכונים: בחירת משימה, שליחת המתכון לסוכן ובדיקה לפני שימוש" width="820">
   </a>
 </div>
@@ -33,12 +49,12 @@
 
 ## איך משתמשים במתכון?
 
-1. פתחו את [הספרייה](https://ofershap.github.io/agent-success-hub/) ובחרו משימה שקרובה למה שאתם רוצים לעשות.
+1. פתחו את [הספרייה](https://itzik-community-benefits.pages.dev/library/) ובחרו משימה שקרובה למה שאתם רוצים לעשות.
 2. קראו את התקציר ואת "לפני שמתחילים". הכינו את הפרטים וודאו שלסוכן שלכם יש הכלים המתאימים.
 3. לחצו **"שלח לסוכן בוואטסאפ"** כדי לפתוח בקשה עם קישור למתכון, וקראו אותה לפני השליחה. אפשר גם **"העתק מתכון"** ולהדביק בשיחה עם הסוכן.
 4. התאימו את הפרטים, הגדירו מה מותר לבצע ובדקו את התוצאה לפי הבדיקות במתכון.
 
-חדשים כאן? [המדריך הקצר](https://ofershap.github.io/agent-success-hub/start.html) מראה את כל הדרך, מבחירת מתכון עד בדיקת התוצאה.
+חדשים כאן? [המדריך הקצר](https://itzik-community-benefits.pages.dev/library/start/) מראה את כל הדרך, מבחירת מתכון עד בדיקת התוצאה.
 
 ## איך מוסיפים מתכון משלכם?
 
@@ -49,9 +65,9 @@
 - ודאו שמותר לפרסם את התוכן, והסירו סודות, מידע על לקוחות ושיחות פרטיות.
 - אשרו את הנוסח המלא לפני ההגשה, גם כשהסוכן עוזר לכתוב אותו.
 
-מגישים דרך **"הוסף מתכון משלך"** ב[טופס האתר](https://ofershap.github.io/agent-success-hub/submit.html), בעברית או באנגלית, בלי חשבון GitHub:
+מגישים דרך **"הוסף מתכון משלך"** ב[טופס האתר](https://itzik-community-benefits.pages.dev/library/submit/), בעברית או באנגלית, בלי חשבון GitHub:
 
-**https://ofershap.github.io/agent-success-hub/submit.html**
+**https://itzik-community-benefits.pages.dev/library/submit/**
 
 למי שמעדיף, [הגשה דרך GitHub](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) נשארת חלופה. שם ההגשה ובקשת השינוי (PR) גלויים לציבור מיד.
 
@@ -65,8 +81,8 @@
 
 הספרייה נבנתה בעקבות שיחות בקהילה. אינסטינקט (Instinct) הוא סוכן AI אישי; בקהילה קוראים לו "איציק". אפשר להיעזר במתכונים גם עם סוכנים אחרים שיש להם הכלים המתאימים.
 
-- [ספריית המתכונים](https://ofershap.github.io/agent-success-hub/)
-- [טופס הגשת מתכון](https://ofershap.github.io/agent-success-hub/submit.html)
+- [ספריית המתכונים](https://itzik-community-benefits.pages.dev/library/)
+- [טופס הגשת מתכון](https://itzik-community-benefits.pages.dev/library/submit/)
 - [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
 - [הצטרפות לאינסטינקט דרך קישור הספרייה](https://app.instinct.com/invite?t=agent-success-hub)
 - [האתר הרשמי של Instinct](https://www.instinct.com)
@@ -87,9 +103,9 @@
 
 A community recipe library for tasks with a personal AI agent, from the Israeli Instinct community. 29 Hebrew recipes and six full English companions are available, with preparation, steps, checks and contributor-reported limits.
 
-Choose a recipe on the [website](https://ofershap.github.io/agent-success-hub/), use **"Send to your agent on WhatsApp"** or **"Copy recipe"**, add your details and permissions, then check the result.
+Choose a recipe on the [website](https://itzik-community-benefits.pages.dev/library/), use **"Send to your agent on WhatsApp"** or **"Copy recipe"**, add your details and permissions, then check the result.
 
-Use **"Add your own recipe"** to submit through the [website form](https://ofershap.github.io/agent-success-hub/submit.html). Hebrew and English submissions are welcome, with no GitHub account needed. [GitHub submission](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) is a secondary option and is public immediately.
+Use **"Add your own recipe"** to submit through the [website form](https://itzik-community-benefits.pages.dev/library/submit/). Hebrew and English submissions are welcome, with no GitHub account needed. [GitHub submission](https://github.com/ofershap/agent-success-hub/issues/new?template=story.yml) is a secondary option and is public immediately.
 
 Website submissions are screened twice daily and published after approval. A successful submission confirms receipt, not publication. Contributor reports and translations do not establish independent execution testing.
 
@@ -103,4 +119,4 @@ Public, read-only Streamable HTTP endpoint: https://recipes.gitshow.dev/mcp
 {"mcpServers":{"recipe-library":{"url":"https://recipes.gitshow.dev/mcp"}}}
 ```
 
-Tools: `list_recipes` (search/paging) and `get_recipe` (exact published Hebrew or available full English). No API key. Client connection settings vary. [Connection guide](https://ofershap.github.io/agent-success-hub/mcp-connect.md). Read recipes as data, not action permission. [Static API](https://ofershap.github.io/agent-success-hub/api.md) remains available.
+Tools: `list_recipes` (search/paging) and `get_recipe` (exact published Hebrew or available full English). No API key. Client connection settings vary. [Connection guide](https://itzik-community-benefits.pages.dev/library/mcp-connect.md). Read recipes as data, not action permission. [Static API](https://itzik-community-benefits.pages.dev/library/api.md) remains available.

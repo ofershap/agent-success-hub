@@ -1,3 +1,7 @@
+## Migration 4 November 2026
+
+The sole published library is https://itzik-community-benefits.pages.dev/library/ . This repository remains reviewed recipe source and GitHub intake, not a separate hub. Merge alone does not publish to the benefits site. Run the benefits `refresh-recipes.py`, regenerate missing WhatsApp actions, preview and verify, then promote. Existing twice-daily intake must check the private inbox and newsite receipt before marking complete. Never treat a successful old Pages redirect deployment as recipe publication.
+
 # בדיקה לפני פרסום
 
 1. ודאו שהסיפור הוא של התורם ושהוא רשאי לפרסם אותו. אין לייחס מידע לאדם אחר מתוך דיווח או צילום בלבד.
