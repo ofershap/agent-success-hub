@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "submissions": {
+    "mw2bqefhn91d": {
+      "id": "mw2bqefhn91d",
+      "state": "rejected",
+      "reason": "Synthetic migration test, explicitly not for publication",
+      "body_sha256": "a6671d78c926349f5bb867dda2647c73064448cc2dcb5076dba19accd830e060",
+      "screening": "rejected"
+    },
+    "mw2bq22024rv": {
+      "id": "mw2bq22024rv",
+      "state": "rejected",
+      "reason": "Synthetic migration test, explicitly not for publication",
+      "body_sha256": "918822564e75e042b0dc272890d5d02ecf58eca2123c0298f2cd9670a9bcf5dc",
+      "screening": "rejected"
+    },
+    "mw2bwk3a23iv": {
+      "id": "mw2bwk3a23iv",
+      "state": "rejected",
+      "reason": "Synthetic production migration test, not for publication",
+      "body_sha256": "7e025ef6eb9e0010c663d038e5c96dbb9512851141fd64ac6e79e656acbce20a",
+      "screening": "rejected"
+    }
+  }
+}
