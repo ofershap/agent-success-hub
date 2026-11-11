@@ -28,7 +28,7 @@ The migration note above supersedes old GitHub Pages publication pointers below.
 </div>
 
 <div align="center">
-<b><a href="https://itzik-community-benefits.pages.dev/library/">הספרייה</a> · <a href="https://itzik-community-benefits.pages.dev/library/start/">מתחילים כאן</a> · <a href="https://itzik-community-benefits.pages.dev/library/submit/">הוסף מתכון משלך</a> · <a href="https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB">הקהילה בוואטסאפ</a></b>
+<b><a href="https://itzik-community-benefits.pages.dev/library/">הספרייה</a> · <a href="https://itzik-community-benefits.pages.dev/library/start/">מתחילים כאן</a> · <a href="https://itzik-community-benefits.pages.dev/library/submit/">הוסף מתכון משלך</a> · <a href="https://itzik-community-benefits.pages.dev/join">הקהילה בוואטסאפ</a></b>
 </div>
 
 <br/>
@@ -83,7 +83,7 @@ The migration note above supersedes old GitHub Pages publication pointers below.
 
 - [ספריית המתכונים](https://itzik-community-benefits.pages.dev/library/)
 - [טופס הגשת מתכון](https://itzik-community-benefits.pages.dev/library/submit/)
-- [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://chat.whatsapp.com/K4e3jxRerQs7QDAy9h8InB)
+- [קהילת אינסטינקט ישראל - מדברים עם בוטים - סוכן AI לכל אחד](https://itzik-community-benefits.pages.dev/join)
 - [הצטרפות לאינסטינקט דרך קישור הספרייה](https://app.instinct.com/invite?t=agent-success-hub)
 - [האתר הרשמי של Instinct](https://www.instinct.com)
 
