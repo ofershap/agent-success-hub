@@ -11,7 +11,47 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      deploy: ${{ steps.scope.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Keep README-only changes out of the site deployment
+        id: scope
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          python3 - <<'PYTHON'
+          import os, subprocess
+          from pathlib import Path
+          event, before, after = (os.environ[k] for k in ("EVENT_NAME", "BEFORE", "AFTER"))
+          deploy = True
+          if event == "push" and before and set(before) != {"0"}:
+              files = set(subprocess.check_output(
+                  ["git", "diff", "--name-only", "-z", before, after]
+              ).decode().rstrip("\0").split("\0")) - {""}
+              readme_only = files <= {"README.md"}
+              # One-time installation: this reviewed change adds the guard and badge
+              # together. Never rebuild the legacy site just to install the guard.
+              guard_install = before == "9b7e21950124478fbebccad04697ef0002c3df9c" and files <= {
+                  "README.md", ".github/workflows/pages.yml"
+              }
+              deploy = not (readme_only or guard_install)
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a") as out:
+              out.write(f"deploy={str(deploy).lower()}\n")
+          print("Site deployment required:", deploy)
+          PYTHON
   deploy:
+    needs: changes
+    if: needs.changes.outputs.deploy == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
