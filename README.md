@@ -25,6 +25,7 @@ The migration note above supersedes old GitHub Pages publication pointers below.
 <div align="center">
 <a href="https://github.com/ofershap/agent-success-hub/actions/workflows/pages.yml"><img src="https://github.com/ofershap/agent-success-hub/actions/workflows/pages.yml/badge.svg" alt="Build and publish"></a>
 <a href="https://github.com/ofershap/agent-success-hub/actions/workflows/check.yml"><img src="https://github.com/ofershap/agent-success-hub/actions/workflows/check.yml/badge.svg" alt="Content checks"></a>
+<a href="https://mcptry.com/servers/io.github.ofershap/recipe-library"><img src="https://mcptry.com/badge/io.github.ofershap/recipe-library" alt="mcptry"></a>
 </div>
 
 <div align="center">
